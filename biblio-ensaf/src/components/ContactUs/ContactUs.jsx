@@ -1,5 +1,5 @@
 import React from 'react'
-import {Form,Row,Col,Button} from 'react-bootstrap';
+import {Form,Button} from 'react-bootstrap';
 import {MdMessage} from 'react-icons/md'
 
 import './ConatctUs.css'
@@ -8,7 +8,7 @@ const ContactUs = () => {
 
   return (
     <div>
-        <img src={contact_font} className='contact-font' />
+        <img src={contact_font} className='contact-font' alt='' />
         <center>
         <span className='contact'>
             <h2><b><MdMessage/> Contact us</b></h2> <br />

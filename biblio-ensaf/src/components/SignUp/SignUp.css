@@ -1,0 +1,18 @@
+.signUp-font{
+    max-height:115vh;
+    width:100%;
+}
+.signUp{
+    position:absolute;
+    top:14%;
+    left:35%;
+    width:30%;
+}
+a[href='http:/Login'] {
+    color: black; 
+    text-decoration: none; 
+  }
+  a[href='http:/Login']:hover {
+    color: blue; 
+    text-decoration: underline; 
+  }

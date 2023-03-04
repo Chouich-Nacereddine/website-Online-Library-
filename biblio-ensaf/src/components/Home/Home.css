@@ -3,17 +3,19 @@
     position:abslute;
     max-height:100vh;
     width:100%;
+    filter: blur(2px);
+    
 }
-.pcfont{
+
+.content{
     position:absolute;
-    height:31%;
-    width:35.3%;
-    top:23.72%; 
-    left:31.2%;
-    border-radius:4px;
-}
-.button{
-    position:absolute;
-    top:59%; 
-    left:44%;
+    width:100%;
+    height:100%;
+    top:8%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    line-height: 0.5;
 }
