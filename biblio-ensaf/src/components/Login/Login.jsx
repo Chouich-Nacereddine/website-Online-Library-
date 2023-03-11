@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React, { useState } from 'react'
 import './Login.css'
 import { Form, Row, Col, Button } from 'react-bootstrap';
 import { BiLogIn } from 'react-icons/bi'
@@ -18,10 +18,10 @@ const Login = () => {
 
             if (user) {
                 alert('Login successful. Thank you for joining us!');
-                window.location.href = '/';
-              } else {
+                window.location.href = '/Books';
+            } else {
                 setError(true);
-              }
+            }
         } catch (error) {
             console.error(error);
         }

@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
+
+
+
 const users = [
   { email: 'user1@example.com', password: 'password1' },
-  { email: 'user2@example.com', password: 'password2' },
+  { email: 'user2@example.com', password: 'password2' }, 
 ];
 
 app.get('/api/users', (req, res) => {

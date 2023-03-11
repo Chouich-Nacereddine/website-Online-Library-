@@ -1,21 +1,20 @@
-import React, { useState } from 'react'
+import React , { useState } from 'react'
 import { Tab, Tabs } from 'react-bootstrap'
-import IT from './types/IT'
-import Electronique from './types/Electronique'
-import Mathematics from './types/Mathematics'
-import Phisics from './types/Phisics'
-import Mechanics from './types/Mechanics'
-import Robotics from './types/Robotics'
-import Automatic from './types/Automatic'
-import Industrial from './types/Industrial'
-import Energetics from './types/Energetics'
-import Management from './types/Management'
+import IT from '../review/IT'
+import Electronique from '../review/Electronique'
+import Mathematics from '../review/Mathematics'
+import Phisics from '../review/Phisics'
+import Mechanics from '../review/Mechanics'
+import Robotics from '../review/Robotics'
+import Automatic from '../review/Automatic'
+import Industrial from '../review/Industrial'
+import Energetics from '../review/Energetics'
+import Management from '../review/Management'
 
-const Books = () => {
-  const [key, setKey] = useState('home');
+const Admin = () => {
+    const [key, setKey] = useState('home');
   return (
-
-    <div style={{ backgroundColor: 'beige', position: 'relative' }}>
+    <div>
       <div>
 
         <Tabs
@@ -56,14 +55,9 @@ const Books = () => {
 
         </Tabs>
 
-
-
       </div>
-
-
-
-    </div >
+    </div>
   )
 }
 
-export default Books
+export default Admin
