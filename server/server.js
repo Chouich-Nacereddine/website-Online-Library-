@@ -8,6 +8,11 @@ const users = [
   { email: 'user2@example.com', password: 'password2' }, 
 ];
 
+const userssss = [
+    { email: 'user1@example.com', password: 'password1' },
+    { email: 'user2@example.com', password: 'password2' }, 
+  ];
+
 app.get('/api/users', (req, res) => {
   res.json(users);
 });
