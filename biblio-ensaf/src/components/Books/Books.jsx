@@ -56,11 +56,7 @@ const Books = () => {
 
         </Tabs>
 
-
-
       </div>
-
-
 
     </div >
   )

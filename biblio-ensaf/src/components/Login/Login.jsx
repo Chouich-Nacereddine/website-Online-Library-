@@ -1,29 +1,33 @@
-import React, { useState } from 'react'
-import './Login.css'
+import React, { useState } from 'react';
+import './Login.css';
 import { Form, Row, Col, Button } from 'react-bootstrap';
-import { BiLogIn } from 'react-icons/bi'
+import { BiLogIn } from 'react-icons/bi';
+import axios from 'axios';
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState(false);
-
+    
     const handleSubmit = async (event) => {
         event.preventDefault();
-
         try {
-            const response = await fetch('/api/users');
-            const users = await response.json();
-            const user = users.find((user) => user.email === email && user.password === password);
-
-            if (user) {
-                alert('Login successful. Thank you for joining us!');
-                window.location.href = '/Books';
+            const response = await axios.post('/api/login', {
+                email: email,
+                password: password
+            });
+            const { username, isAdmin, accessToken } = response.data;
+            localStorage.setItem('accessToken', accessToken);
+            if (isAdmin) {
+                alert("Login successful! You are login as an Admin");
+                window.location.href = '/admin';
             } else {
-                setError(true);
+                alert("Login successful! Thank you for joining us ");
+                window.location.href = '/Books';
             }
-        } catch (error) {
-            console.error(error);
+        } catch (err) {
+            setError(true);
+            console.error(err);
         }
     };
 
