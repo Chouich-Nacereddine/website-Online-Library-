@@ -3,11 +3,13 @@ import './Login.css';
 import { Form, Row, Col, Button } from 'react-bootstrap';
 import { BiLogIn } from 'react-icons/bi';
 import axios from 'axios';
+import { useNavigate  } from 'react-router-dom';
 
-const Login = () => {
+const Login = ({ onLogin, isAuthenticated }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState(false);
+    const navigate = useNavigate();
     
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -20,11 +22,12 @@ const Login = () => {
             localStorage.setItem('accessToken', accessToken);
             if (isAdmin) {
                 alert("Login successful! You are login as an Admin");
-                window.location.href = '/admin';
+                navigate('/Admin');
             } else {
                 alert("Login successful! Thank you for joining us ");
-                window.location.href = '/Books';
+                navigate('/Books');
             }
+            onLogin();
         } catch (err) {
             setError(true);
             console.error(err);

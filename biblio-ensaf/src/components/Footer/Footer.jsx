@@ -12,11 +12,11 @@ const Footer = () => {
       <Card.Body >
         <Card.Title>Short description</Card.Title>
         <Card.Text className="text-muted">
-          With supporting text below as a natural lead-in to additional content.
+        Our library at ENSA Fès: a space for learning and sharing for students, teachers, and researchers..
         </Card.Text>
         <Button variant="primary" href='/Contact-us'>Contact us</Button>
       </Card.Body>
-      <Card.Footer className="text-muted">&copy; {new Date().getFullYear()} Bibliothèque-Ensaf.ALL Rights Reserved  -designed by CHOUICH-Nacerddine </Card.Footer>
+      <Card.Footer className="text-muted">&copy; {new Date().getFullYear()} Bibliothèque-Ensaf.ALL Rights Reserved  -designed by ARIOUA-Imane & CHOUICH-Nacerddine </Card.Footer>
     </Card>
 
     </div>

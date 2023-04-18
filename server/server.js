@@ -6,11 +6,12 @@ app.use(express.json());
 let refreshTokens = [];
 //////////////////////////
 const XLSX = require('xlsx');
+const fs = require('fs');
 const workbook = XLSX.readFile('./assets/test.xlsx');
 const sheetName = workbook.SheetNames[0];
 const worksheet = workbook.Sheets[sheetName];
 const users = XLSX.utils.sheet_to_json(worksheet);
-console.log(users);
+
 /////////////////////////
 
 /*const users = [
@@ -34,9 +35,16 @@ console.log(users);
 
 
 app.get('/api/users', (req, res) => {
-  res.json(users);
+  try {
+    res.json(users);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Erreur lors de la récupération des utilisateurs." });
+
+  }
 });
 
+// login API
 app.post('/api/login', (req, res) => {
   const { email, password } = req.body;
   //res.json("hey it works");
@@ -59,6 +67,36 @@ app.post('/api/login', (req, res) => {
   }
 });
 
+// Signup API
+app.post('/api/signup', (req, res) => {
+  const { firstName, lastName, email, password } = req.body;
+  const existingUser = users.find(u => {
+    return u.email === email;
+  });
+  if (existingUser) {
+    res.status(400).json('User already exists!');
+  } else {
+    const newUser = {
+      id: users.length + 1,
+      username: `${firstName} ${lastName}`,
+      email,
+      password,
+      isAdmin: 0
+    };
+    users.push(newUser);
+    const newWorksheet = XLSX.utils.json_to_sheet(users);
+    const newWorkbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(newWorkbook, newWorksheet, sheetName);
+    fs.writeFile('./assets/test.xlsx', XLSX.write(newWorkbook, { bookType: 'xlsx', type: 'buffer' }), (err) => {
+      if (err) throw err;
+      res.json(newUser);
+    });
+
+  }
+});
+
+
+// fonctions
 
 const generateAccessToken = (user) => {
   return jwt.sign({ id: user.id, isAdmin: user.isAdmin }, "mySecretKey", {

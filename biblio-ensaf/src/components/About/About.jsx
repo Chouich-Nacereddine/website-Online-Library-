@@ -7,7 +7,7 @@ const About = () => {
         <img src={About_font} alt="" className='about-font'/>
         <div className='description'>
         <p style={{opacity:'100%'}}>
-            <b>Welcome to the Library of the National School of Applied Sciences of Fes (ENSA Fes). 
+            <b>Welcome to the Library of the National School of Applied Sciences of Fes (<a href="https://ensaf.ac.ma/" target="_blank">ENSA</a> Fes). 
             Our library is a place of knowledge and culture, where students, teachers, 
             and researchers can find academic resources to enrich their work and learning. <br /> <br />
             We believe that the library of ENSA Fes is an essential element of the academic and 

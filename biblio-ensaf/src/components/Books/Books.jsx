@@ -53,7 +53,6 @@ const Books = () => {
           <Tab eventKey="management" title="Management">
             <Management />
           </Tab>
-
         </Tabs>
 
       </div>
