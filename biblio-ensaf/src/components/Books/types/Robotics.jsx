@@ -7,9 +7,9 @@ import Book8 from '../../../assets/Book12.jpg'
 const Robotics = () => {
   return (
     <div>
-      <div style={{ display: 'flex', paddingLeft: '5%' }}>
+      <div style={{ display: 'flex', paddingLeft: '1rem',paddingTop:'1rem' }}>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book2} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -23,7 +23,7 @@ const Robotics = () => {
         </span>
 
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book4} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -36,7 +36,7 @@ const Robotics = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book6} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -49,7 +49,7 @@ const Robotics = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book8} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>

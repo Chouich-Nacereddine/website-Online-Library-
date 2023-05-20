@@ -3,6 +3,7 @@ import { Tab, Row, Col, Nav } from 'react-bootstrap'
 import { CgProfile } from 'react-icons/cg'
 import Profil from '../Profil/Profil'
 import Users from '../Users/Users'
+import Books from '../Books/Books'
 
 const Admin = () => {
   return (
@@ -12,13 +13,13 @@ const Admin = () => {
           <Col sm={3}>
             <Nav variant="pills" className="flex-column text-center bg-dark min-vh-100 h-100  border  border-2 border-secondary " style={{ borderTopRightRadius: '30px' }}>
               <Nav.Item>
-                <Nav.Link eventKey="My Profil" className='text-muted ' style={{ borderTopRightRadius: '24px', borderTopLeftRadius: '0px', borderBottomLeftRadius: '0px' }}> <h5><CgProfile /> My Profil</h5></Nav.Link>
-              </Nav.Item> <br /> 
+                <Nav.Link eventKey="My Profil"   style={{color:'bisque' ,borderTopRightRadius: '24px', borderTopLeftRadius: '0px', borderBottomLeftRadius: '0px', borderBottom: '2px solid beige' }}> <h5><CgProfile /> My Profil</h5></Nav.Link>
+              </Nav.Item> <br />
               <Nav.Item>
-                <Nav.Link eventKey="Users">Users</Nav.Link>
+                <Nav.Link eventKey="Users" style={{color:'bisque' ,borderBottom: '2px solid beige' }}>Users</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="Books">Books</Nav.Link>
+                <Nav.Link eventKey="Books" style={{color:'bisque' ,borderBottom: '2px solid beige' }}>Books</Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
@@ -28,10 +29,10 @@ const Admin = () => {
                 <Profil />
               </Tab.Pane>
               <Tab.Pane eventKey="Users">
-                <Users/>
+                <Users />
               </Tab.Pane>
               <Tab.Pane eventKey="Books">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo commodi eius ea. Nesciunt maiores, sed a delectus consequuntur earum illum alias assumenda modi non amet id quaerat, impedit quia vitae?
+                <Books />
               </Tab.Pane>
             </Tab.Content>
           </Col>

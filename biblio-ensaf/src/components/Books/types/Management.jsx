@@ -12,9 +12,9 @@ import Book16 from '../../../assets/Book16.jpg'
 const Management = () => {
   return (
     <div>
-      <div style={{ display: 'flex', paddingLeft: '5%' }}>
+      <div style={{ display: 'flex', paddingLeft: '1rem',paddingTop:'1rem' }}>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book10} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -28,7 +28,7 @@ const Management = () => {
         </span>
 
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book9} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -41,7 +41,7 @@ const Management = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book12} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -54,7 +54,7 @@ const Management = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book11} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -68,10 +68,10 @@ const Management = () => {
         </span>
 
       </div>
-      <div style={{ display: 'flex', paddingLeft: '5%' }}>
+      <div style={{ display: 'flex', paddingLeft: '1rem',paddingTop:'1rem' }}>
 
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book14} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -85,7 +85,7 @@ const Management = () => {
         </span>
 
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book13} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -98,7 +98,7 @@ const Management = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book16} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -111,7 +111,7 @@ const Management = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book15} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>

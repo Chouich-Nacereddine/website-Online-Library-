@@ -1,25 +1,30 @@
 import React from 'react'
-import {FaUserGraduate} from 'react-icons/fa';
 
 
 const Profil = () => {
-  
+  const username = localStorage.getItem('username');
+  const email = localStorage.getItem('email');
+  const isAdmin = localStorage.getItem('isAdmin');
+
+  console.log(isAdmin);
+
+
+
   return (
-    <div style={{ backgroundColor: 'beige' }} >
-      <div className='d-flex flex-column min-vh-100 align-items-center '  >
-        <h1 className='p-5'> <FaUserGraduate/> <b> Profile</b> </h1>
-        <div className='w-100 d-flex flex-column  align-items-center p-5  '>
-        <center>
-          <h2 style={{color:'blue'}}>name</h2>
-          <p>Status: </p>
-          <p>Email: </p>
-          <p>Password: </p>
-          
-          
-          
-    </center>
-        </div>
+    <div style={{ backgroundColor: 'beige' }} className='w-100 vh-100 d-flex flex-column justify-content-center  align-items-center'>
+
+      <div className='w-cover d-flex flex-column  align-items-center p-5  '
+        style={{ backgroundColor:'bisque', borderRadius: '2rem', fontFamily: 'Microsoft YaHei' ,color:'black', border:'1px solid gray'}}
+      >
         
+          <h2 className='text-dark' style={{fontSize:'3rem'}}>{username}</h2> <br />
+          <p> <b className='text-primary'> Status: </b>  {isAdmin === '1' ? 'Admin' : 'Client'} </p>
+          <p> <b className='text-primary'>Email: </b> {email} </p>
+          <p> <b className='text-primary'>Password:</b> *****************</p>
+
+
+  
+
       </div>
     </div>
   )

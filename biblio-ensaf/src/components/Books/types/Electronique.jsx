@@ -14,9 +14,9 @@ import Book8 from '../../../assets/Book8.jpg'
 const Electronique = () => {
   return (
     <div>
-      <div style={{ display: 'flex', paddingLeft: '5%' }}>
+      <div style={{ display: 'flex', paddingLeft: '1rem',paddingTop:'1rem' }}>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book3} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -29,7 +29,7 @@ const Electronique = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book4} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -42,7 +42,7 @@ const Electronique = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book5} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -55,7 +55,7 @@ const Electronique = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book6} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -68,10 +68,10 @@ const Electronique = () => {
           </Card>
         </span>
       </div>
-      <div style={{ display: 'flex', paddingLeft: '5%' }}>
+      <div style={{ display: 'flex', paddingLeft: '1rem',paddingTop:'1rem' }}>
 
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book8} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -85,7 +85,7 @@ const Electronique = () => {
         </span>
 
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book7} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -98,7 +98,7 @@ const Electronique = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book2} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -111,7 +111,7 @@ const Electronique = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book1} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>

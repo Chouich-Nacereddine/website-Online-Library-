@@ -2,7 +2,11 @@ const express = require('express');
 const app = express();
 const jwt = require('jsonwebtoken');
 app.use(express.json());
-
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 let refreshTokens = [];
 //////////////////////////
 const XLSX = require('xlsx');
@@ -109,29 +113,19 @@ const generateRefreshToken = (user) => {
 };
 
 
-const verify = (req, res, next) => {
-  const authHeader = req.headers.authorization;
-  if (authHeader) {
-    const token = authHeader.split(" ")[1];
 
-    jwt.verify(token, "mySecretKey", (err, user) => {
-      if (err) {
-        return res.status(403).json("Token is not valid!");
-      }
-
-      req.user = user;
-      next();
-    });
+app.delete('/api/users/:userId', (req, res) => {
+  const userId = parseInt(req.params.userId);
+  const index = users.findIndex((user) => user.id === userId);
+  if (index !== -1) {
+    users.splice(index, 1);
+    const updatedWorkbook = XLSX.utils.book_new();
+    const updatedSheet = XLSX.utils.json_to_sheet(users);
+    XLSX.utils.book_append_sheet(updatedWorkbook, updatedSheet, sheet_name_list[0]);
+    XLSX.writeFile(updatedWorkbook, 'users.xlsx');
+    res.sendStatus(204);
   } else {
-    res.status(401).json("You are not authenticated!");
-  }
-};
-
-app.delete("/api/users/:userId", verify, (req, res) => {
-  if (req.user.id === req.params.userId || req.user.isAdmin) {
-    res.status(200).json("User has been deleted.");
-  } else {
-    res.status(403).json("You are not allowed to delete this user!");
+    res.sendStatus(404);
   }
 });
 

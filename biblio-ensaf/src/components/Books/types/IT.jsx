@@ -6,9 +6,9 @@ import Book3 from '../../../assets/Book3.jpg'
 const IT = () => {
   return (
     <div>
-      <div style={{ display: 'flex', paddingLeft: '5%' }}>
+      <div style={{ display: 'flex', paddingLeft: '1rem',paddingTop:'1rem' }}>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book1} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -22,7 +22,7 @@ const IT = () => {
         </span>
 
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book2} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -35,7 +35,7 @@ const IT = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book3} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>
@@ -48,7 +48,7 @@ const IT = () => {
           </Card>
         </span>
         <span style={{ marginRight: '1rem' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '14.5rem' }}>
             <Card.Img variant="top" src={Book1} />
             <Card.Body >
               <Card.Title>Card Title</Card.Title>

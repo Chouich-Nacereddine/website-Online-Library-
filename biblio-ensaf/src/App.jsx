@@ -8,7 +8,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import About from './components/About/About'
 import SignUp from './components/SignUp/SignUp'
-import Books from './components/Books/Books'
+import Client from './components/Client/Client'
 import Admin from './components/Admin/Admin'
 
 const App = () => {
@@ -29,7 +29,7 @@ const App = () => {
           <Route path='/Login' element={<Login onLogin={handleLogin} isAuthenticated={isAuthenticated} />} />
           <Route path='/About-us' element={<About />} />
           <Route path='/Sign-up' element={<SignUp />} />
-          <Route path='/Books' element={isAuthenticated ? <Books /> : <Navigate to='/Login' />} />
+          <Route path='/Client' element={isAuthenticated ? <Client /> : <Navigate to='/Login' />} />
           <Route path='/Admin' element={isAuthenticated ? <Admin /> : <Navigate to='/Login' />} />
           
         </Routes>
