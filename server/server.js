@@ -1,107 +1,164 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const jwt = require('jsonwebtoken');
+const jwt = require("jsonwebtoken");
+const xlsx = require("xlsx");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+let refreshTokens = [];
 app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+mongoose
+  .connect(
+    "mongodb+srv://Nacer:gesE74py7IvXxCs6@cluster0.fnv49eh.mongodb.net/?retryWrites=true&w=majority",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
+  .then(() => {
+    console.log("Connecté à MongoDB");
+  })
+  .catch((erreur) => {
+    console.error("Erreur de connexion à MongoDB:", erreur);
+  });
+
+// data general forme
+const userSchema = new mongoose.Schema({
+  id: String,
+  username: String,
+  email: String,
+  password: String,
+  isAdmin: Boolean,
+});
+const users = mongoose.model("user", userSchema);
+
+//SIGNUP API
+app.post("/signup", (req, res) => {
+  const { id, firstName, lastName, email, password, isAdmin } = req.body;
+
+  // Création d'une instance du modèle utilisateur avec les données reçues
+  const newUser = new users({
+    id: "",
+    username: `${firstName} ${lastName}`,
+    email,
+    password,
+    isAdmin: false,
+  });
+
+  // Sauvegarde de l'utilisateur dans la base de données
+  newUser
+    .save()
+    .then(() => {
+      res.status(201).json({ message: "Utilisateur créé avec succès" });
+    })
+    .catch((erreur) => {
+      res
+        .status(500)
+        .json({ error: "Erreur lors de la création de l'utilisateur" });
+    });
+});
+
+// LOGIN API
+app.post("/login", (req, res) => {
+  const { email, password } = req.body;
+
+  // Recherche de l'utilisateur dans la base de données par son e-mail
+  users
+    .findOne({ email, password })
+    .then((user) => {
+      // Vérification si l'utilisateur existe
+      if (!user) {
+        return res.status(404).json({
+          error: "Utilisateur non trouvé => Email or password incorrect!",
+        });
+      }
+
+      // Vérification du mot de passe
+      if (user.password !== password) {
+        return res.status(401).json({ error: "Mot de passe incorrect" });
+      }
+
+      // L'utilisateur est authentifié avec succès
+
+      // Génération des jetons d'accès et de rafraîchissement
+      const accessToken = generateAccessToken(user);
+      const refreshToken = generateRefreshToken(user);
+
+      // Ajout du jeton de rafraîchissement à la liste `refreshTokens`
+      refreshTokens.push(refreshToken);
+
+      // Renvoi de la réponse avec les informations de l'utilisateur et les jetons
+      res.json({
+        username: user.username,
+        isAdmin: user.isAdmin,
+        accessToken,
+        refreshToken,
+      });
+    })
+    .catch((erreur) => {
+      res.status(500).json({ error: "Erreur lors de l'authentification" });
+    });
+});
+
+app.get("/usersData", async (req, res) => {
+  try {
+    const user = await users.find({});
+    res.status(200).json(user);
+  } catch (error) {
+    res
+      .status(500)
+      .json({ error: "Erreur lors de la récupération des utilisateurs" });
+  }
+});
+
+app.post("/uploadUsers", (req, res) => {
+  const file = req.files.file;
+
+  // Lire le fichier Excel
+  const workbook = xlsx.readFile(file.tempFilePath);
+  const worksheet = workbook.Sheets[workbook.SheetNames[0]];
+  const jsonData = xlsx.utils.sheet_to_json(worksheet);
+
+  // Parcourir les données et ajouter les utilisateurs à la base de données
+  jsonData.forEach((user) => {
+    const newUser = new users({
+      id: user.id,
+      username: user.username,
+      email: user.email,
+      password: user.password,
+      isAdmin: false,
+    });
+
+    newUser
+      .save()
+      .then(() => {
+        console.log(`Utilisateur ${user.id} ajouté à la base de données`);
+      })
+      .catch((erreur) => {
+        console.error(
+          `Erreur lors de l'ajout de l'utilisateur ${user.id}:`,
+          erreur
+        );
+      });
+  });
+
+  res
+    .status(200)
+    .json({ message: "Les utilisateurs ont été ajoutés avec succès" });
+});
+
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
   next();
 });
-let refreshTokens = [];
-//////////////////////////
-const XLSX = require('xlsx');
-const fs = require('fs');
-const workbook = XLSX.readFile('./assets/test.xlsx');
-const sheetName = workbook.SheetNames[0];
-const worksheet = workbook.Sheets[sheetName];
-const users = XLSX.utils.sheet_to_json(worksheet);
-
-/////////////////////////
-
-/*const users = [
-  {
-    id: "1",
-    username: "nacer",
-    email: "user1@example.com",
-    password: "password1",
-    isAdmin: true,
-  },
-  {
-    id: '2',
-    username: 'imane',
-    email: 'user2@example.com',
-    password: 'password2',
-    isAdmin: false,
-  },
-];*/
-
-
-
-
-app.get('/api/users', (req, res) => {
-  try {
-    res.json(users);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Erreur lors de la récupération des utilisateurs." });
-
-  }
-});
-
-// login API
-app.post('/api/login', (req, res) => {
-  const { email, password } = req.body;
-  //res.json("hey it works");
-  const user = users.find(u => {
-    return u.email === email && u.password === password;
-  });
-  if (user) {
-    //Generate an access token
-    const accessToken = generateAccessToken(user);
-    const refreshToken = generateRefreshToken(user);
-    refreshTokens.push(refreshToken);
-    res.json({
-      username: user.username,
-      isAdmin: user.isAdmin,
-      accessToken,
-      refreshToken,
-    });
-  } else {
-    res.status(400).json('username or password incorrect! ')
-  }
-});
-
-// Signup API
-app.post('/api/signup', (req, res) => {
-  const { firstName, lastName, email, password } = req.body;
-  const existingUser = users.find(u => {
-    return u.email === email;
-  });
-  if (existingUser) {
-    res.status(400).json('User already exists!');
-  } else {
-    const newUser = {
-      id: users.length + 1,
-      username: `${firstName} ${lastName}`,
-      email,
-      password,
-      isAdmin: 0
-    };
-    users.push(newUser);
-    const newWorksheet = XLSX.utils.json_to_sheet(users);
-    const newWorkbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(newWorkbook, newWorksheet, sheetName);
-    fs.writeFile('./assets/test.xlsx', XLSX.write(newWorkbook, { bookType: 'xlsx', type: 'buffer' }), (err) => {
-      if (err) throw err;
-      res.json(newUser);
-    });
-
-  }
-});
-
 
 // fonctions
-
 const generateAccessToken = (user) => {
   return jwt.sign({ id: user.id, isAdmin: user.isAdmin }, "mySecretKey", {
     expiresIn: "60s",
@@ -112,51 +169,25 @@ const generateRefreshToken = (user) => {
   return jwt.sign({ id: user.id, isAdmin: user.isAdmin }, "myRefreshSecretKey");
 };
 
-
-
-app.delete('/api/users/:userId', (req, res) => {
+app.delete("/api/users/:userId", (req, res) => {
   const userId = parseInt(req.params.userId);
   const index = users.findIndex((user) => user.id === userId);
   if (index !== -1) {
     users.splice(index, 1);
     const updatedWorkbook = XLSX.utils.book_new();
     const updatedSheet = XLSX.utils.json_to_sheet(users);
-    XLSX.utils.book_append_sheet(updatedWorkbook, updatedSheet, sheet_name_list[0]);
-    XLSX.writeFile(updatedWorkbook, 'users.xlsx');
+    XLSX.utils.book_append_sheet(
+      updatedWorkbook,
+      updatedSheet,
+      sheet_name_list[0]
+    );
+    XLSX.writeFile(updatedWorkbook, "users.xlsx");
     res.sendStatus(204);
   } else {
     res.sendStatus(404);
   }
 });
 
-app.post("/api/refresh", (req, res) => {
-  //take the refresh token from the user
-  const refreshToken = req.body.token;
-
-  //send error if there is no token or it's invalid
-  if (!refreshToken) return res.status(401).json("You are not authenticated!");
-  if (!refreshTokens.includes(refreshToken)) {
-    return res.status(403).json("Refresh token is not valid!");
-  }
-  jwt.verify(refreshToken, "myRefreshSecretKey", (err, user) => {
-    err && console.log(err);
-    refreshTokens = refreshTokens.filter((token) => token !== refreshToken);
-
-    const newAccessToken = generateAccessToken(user);
-    const newRefreshToken = generateRefreshToken(user);
-
-    refreshTokens.push(newRefreshToken);
-
-    res.status(200).json({
-      accessToken: newAccessToken,
-      refreshToken: newRefreshToken,
-    });
-  });
-
-  //if everything is ok, create new access token, refresh token and send to user
-});
-
-
 app.listen(5000, () => {
-  console.log('Server started on port 5000');
+  console.log("Server started on port 5000");
 });

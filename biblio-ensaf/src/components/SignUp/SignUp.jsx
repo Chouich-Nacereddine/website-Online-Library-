@@ -4,6 +4,8 @@ import { Form, Row, Col, Button } from 'react-bootstrap';
 import { GoSignIn } from 'react-icons/go'
 import SignUp_font from '../../assets/login-font.jpg'
 
+import axios from 'axios'
+
 const SignUp = () => {
 
   const [firstName, setFirstName] = useState('');
@@ -11,23 +13,28 @@ const SignUp = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
-    try {
-      const response = await fetch('/api/signup', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ firstName, lastName, email, password }),
-      });
-      const data = await response.json();
-      console.log(data);
-      window.location.href = '/Login';
-    } catch (error) {
-      console.error(error);
-      alert(error.message);
-    }
-  };
 
+    // Création de l'objet de données à envoyer
+    const userData = {
+      firstName,
+      lastName,
+      email,
+      password
+    };
+    console.log(userData)
+    // Appel de l'API POST avec Axios
+    axios.post('/signup', userData)
+      .then(response => {
+        console.log(response.data); // Affichage de la réponse du serveur
+        window.location.href = '/Login';
+      })
+      .catch(error => {
+        console.error(error); // Affichage de l'erreur en cas d'échec
+        alert(error);
+      });
+  };
 
   return (
     <div>

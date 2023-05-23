@@ -2,14 +2,23 @@ import React, { useState, useEffect } from 'react'
 import { Table } from "react-bootstrap";
 import { FaEdit, FaTrash } from "react-icons/fa";
 import axios from "axios";
+import './Users.css'
+import UsersUpload from './UsersUpload';
+
 
 const Users = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get("/api/users").then((response) => {
+    // Appeler l'API pour récupérer les utilisateurs
+    axios.get("/usersData")
+    .then(response => {
       setUsers(response.data);
-    });
+      console.log(response.data); // Afficher les données récupérées
+    })
+      .catch(error => {
+        console.log(error);
+      });
   }, []);
 
   const handleEdit = (userId) => {
@@ -34,6 +43,7 @@ const Users = () => {
 
   return (
     <>
+    <UsersUpload/>
       <Table striped bordered hover>
         <thead>
           <tr>
@@ -49,8 +59,8 @@ const Users = () => {
         </thead>
         <tbody>
           {users.map((user) => (
-            <tr key={user.id}>
-              <td>{user.id}</td>
+            <tr key={user._id}>
+              <td>{Math.round(user.id)}</td>
               <td>{user.username}</td>
               <td>{user.email}</td>
               <td>{user.password}</td>
@@ -58,13 +68,13 @@ const Users = () => {
               <td>
                 <FaEdit
                   onClick={() => handleEdit(user.id)}
-                  style={{ cursor: "pointer" }}
+                  className="edit animation"
                 />
               </td>
               <td>
                 <FaTrash
                   onClick={() => handleDelete(user.id)}
-                  style={{ cursor: "pointer" }}
+                  className="delete animation"
                 />
               </td>
             </tr>
