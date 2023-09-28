@@ -1,38 +1,67 @@
 const express = require("express");
 const app = express();
 const jwt = require("jsonwebtoken");
-const xlsx = require("xlsx");
-const bodyParser = require("body-parser");
+const fs = require('fs');
 const mongoose = require("mongoose");
 let refreshTokens = [];
 app.use(express.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 
-mongoose
-  .connect(
-    "mongodb+srv://Nacer:gesE74py7IvXxCs6@cluster0.fnv49eh.mongodb.net/?retryWrites=true&w=majority",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    }
-  )
-  .then(() => {
-    console.log("Connecté à MongoDB");
-  })
-  .catch((erreur) => {
-    console.error("Erreur de connexion à MongoDB:", erreur);
-  });
 
-// data general forme
+// Connection to BooksDB
+const booksConnection = mongoose.createConnection(
+  "mongodb+srv://nacreddine:3ZuAjbGOJSQY3ELv@cluster0.awlyvkd.mongodb.net/?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+)
+.on('connected',() => {
+  console.log("Connecté à MongoDB : Books");
+})
+.on('error',(erreur) => {
+  console.error("Erreur de connexion à MongoDB : Books", erreur);
+});
+
+// BookSB general forme
+const BooksSchema = new mongoose.Schema({
+  N_item : String,
+  Matiere : String,
+  Titre : String,
+  Auteur : String,
+  Editeur : String,
+  Qte : Number,
+  N_INV : String, 
+  Img : String
+}, { collection: 'Books' });
+
+const Books = booksConnection.model("Books", BooksSchema);
+
+
+// Connection to UsersDB
+const usersConnection = mongoose.createConnection(
+  "mongodb+srv://Nacer:gesE74py7IvXxCs6@cluster0.fnv49eh.mongodb.net/?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+)
+.on('connected',() => {
+  console.log("Connecté à MongoDB : Users");
+})
+.on('error',(erreur) => {
+  console.error("Erreur de connexion à MongoDB : Users", erreur);
+});
+
 const userSchema = new mongoose.Schema({
   id: String,
   username: String,
   email: String,
   password: String,
   isAdmin: Boolean,
-});
-const users = mongoose.model("user", userSchema);
+}, { collection: 'users' });
+
+const users = usersConnection.model("user", userSchema);
+
 
 //SIGNUP API
 app.post("/signup", (req, res) => {
@@ -102,6 +131,7 @@ app.post("/login", (req, res) => {
     });
 });
 
+// geting usersDB
 app.get("/usersData", async (req, res) => {
   try {
     const user = await users.find({});
@@ -113,40 +143,91 @@ app.get("/usersData", async (req, res) => {
   }
 });
 
-app.post("/uploadUsers", (req, res) => {
-  const file = req.files.file;
+// geting BooksDB
+app.get("/BooksData", async (req, res) => {
+  try {
+    const Book = await Books.find({});
+    res.status(200).json(Book);
+  } catch (error) {
+    res
+      .status(500)
+      .json({ error: "Erreur lors de la récupération des Books" });
+  }
+});
 
-  // Lire le fichier Excel
-  const workbook = xlsx.readFile(file.tempFilePath);
-  const worksheet = workbook.Sheets[workbook.SheetNames[0]];
-  const jsonData = xlsx.utils.sheet_to_json(worksheet);
+// Upload Users to UserDB
+app.post("/users-upload", (req, res) => {
+  const usersData = require('./Users.json'); // Charger les données à partir du fichier JSON
 
-  // Parcourir les données et ajouter les utilisateurs à la base de données
-  jsonData.forEach((user) => {
-    const newUser = new users({
-      id: user.id,
-      username: user.username,
-      email: user.email,
-      password: user.password,
-      isAdmin: false,
+  // Convertir les valeurs de la variable isAdmin en booléens
+  const convertedData = usersData.map(user => {
+    if (user.isAdmin === "True") {
+      user.isAdmin = true;
+    } else if (user.isAdmin === "False") {
+      user.isAdmin = false;
+    }
+    return user;
+  });
+  
+  users.insertMany(usersData)
+    .then(() => {
+      res.status(201).json({ message: "Utilisateurs ajoutés avec succès" });
+    })
+    .catch((erreur) => {
+      res.status(500).json({ error: "Erreur lors de l'ajout des utilisateurs" });
+    });
+});
+
+// Upload Books to BooksDB
+app.post("/Books-upload", (req, res) => {
+  const BooksData = require('./Books.json'); // Charger les données à partir du fichier JSON
+
+  
+  Books.insertMany(BooksData)
+    .then(() => {
+      res.status(201).json({ message: "Books ajoutés avec succès" });
+    })
+    .catch((erreur) => {
+      res.status(500).json({ error: "Erreur lors de l'ajout des Books" });
+    });
+});
+
+// Edit Users info
+app.put("/api/users/:id", async (req, res) => {
+  try {
+    const userId = req.params.id;
+    const updatedUser = req.body;
+    const user = await users.findOneAndUpdate({ _id: userId }, updatedUser, {
+      new: true,
     });
 
-    newUser
-      .save()
-      .then(() => {
-        console.log(`Utilisateur ${user.id} ajouté à la base de données`);
-      })
-      .catch((erreur) => {
-        console.error(
-          `Erreur lors de l'ajout de l'utilisateur ${user.id}:`,
-          erreur
-        );
-      });
-  });
+    if (!user) {
+      return res.status(404).json({ message: "Utilisateur non trouvé" });
+    }
 
-  res
-    .status(200)
-    .json({ message: "Les utilisateurs ont été ajoutés avec succès" });
+    return res.json(user);
+  } catch (error) {
+    console.error("Erreur lors de la mise à jour de l'utilisateur:", error);
+    return res.status(500).json({ message: "Erreur lors de la mise à jour de l'utilisateur" });
+  }
+});
+
+// Delete User from DB
+app.delete("/api/users/:userId", async (req, res) => {
+  const userId = req.params.userId;
+
+  try {
+    const deletedUser = await users.findByIdAndDelete(userId);
+
+    if (deletedUser) {
+      res.sendStatus(204);
+    } else {
+      res.sendStatus(404);
+    }
+  } catch (error) {
+    console.error('Erreur lors de la suppression de l\'utilisateur:', error);
+    res.sendStatus(500);
+  }
 });
 
 app.use((req, res, next) => {
@@ -169,24 +250,6 @@ const generateRefreshToken = (user) => {
   return jwt.sign({ id: user.id, isAdmin: user.isAdmin }, "myRefreshSecretKey");
 };
 
-app.delete("/api/users/:userId", (req, res) => {
-  const userId = parseInt(req.params.userId);
-  const index = users.findIndex((user) => user.id === userId);
-  if (index !== -1) {
-    users.splice(index, 1);
-    const updatedWorkbook = XLSX.utils.book_new();
-    const updatedSheet = XLSX.utils.json_to_sheet(users);
-    XLSX.utils.book_append_sheet(
-      updatedWorkbook,
-      updatedSheet,
-      sheet_name_list[0]
-    );
-    XLSX.writeFile(updatedWorkbook, "users.xlsx");
-    res.sendStatus(204);
-  } else {
-    res.sendStatus(404);
-  }
-});
 
 app.listen(5000, () => {
   console.log("Server started on port 5000");

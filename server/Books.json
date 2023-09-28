@@ -1,0 +1,1744 @@
+[
+    {
+     "N_item": 1,
+     "Matiere": "Electronique",
+     "Titre": "ELECTRONIQUE DE PUISSANCE - 3E ED. - COURS, ETUDES DE CAS ET EXERCICES CORRIGES",
+     "Auteur": " LASNE LUC",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 963,
+     "Img": 963
+    },
+    {
+     "N_item": 2,
+     "Matiere": "Electronique",
+     "Titre": "COMMANDE ELECTRONIQUE DES MOTEURS ELECTRIQUES - 2EME EDITION",
+     "Auteur": " PINARD MICHEL ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 854
+    },
+    {
+     "N_item": 3,
+     "Matiere": "Electronique",
+     "Titre": "ELECTRONIQUE DE PUISSANCE - 10E ED. - STRUCTURES, COMMANDES, APPLICATIONS",
+     "Auteur": " GUY |  SEGUIER+LABRIQUE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 814
+    },
+    {
+     "N_item": 4,
+     "Matiere": "Electronique",
+     "Titre": "LA MODELISATION AUTOMATIQUE POUR L'ELECTRONIQUE DE PUISSANCE",
+     "Auteur": " XXX",
+     "Qte": 1,
+     "Editeur": " EDITIONS UNIVERSITAIRES EUROPEENES",
+     "N_INV": 959
+    },
+    {
+     "N_item": 5,
+     "Matiere": "Informatique",
+     "Titre": "EXERCICES ET PROBLEMES D'ALGORITHMIQUE - 3E EDITION - 155 ENONCES AVEC SOLUTIONS DETAILLEES",
+     "Auteur": " BAYNAT BRUNONNE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "903_904"
+    },
+    {
+     "N_item": 6,
+     "Matiere": "Informatique",
+     "Titre": "CAMPUS INFORMATIQUE INDUSTRIELLE ET RESEAUX -2E ED. - EN 20 FICHES",
+     "Auteur": "HEROLD+GUILLOTIN+ANA",
+     "Qte": 1,
+     "Editeur": "DUNOD"
+    },
+    {
+     "N_item": 7,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES POUR LA PHYSIQUE - EXERCICES ET PROBLEMES CORRIGES",
+     "Auteur": " MAMODE |  MAMODE MALIK",
+     "Qte": 2,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": "773_774"
+    },
+    {
+     "N_item": 8,
+     "Matiere": "Mathématique",
+     "Titre": "COURS DE PHYSIQUE - LICENCE - T01 - MATHEMATIQUES POUR LA PHYSIQUE",
+     "Auteur": " NOIROT PARISOT",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 855
+    },
+    {
+     "N_item": 9,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES EN PHYSIQUE - CONCEPTS ET OUTILS",
+     "Auteur": " PROVOST JEAN-PIERRE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "856_857"
+    },
+    {
+     "N_item": 10,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES POUR PHYSICIENS",
+     "Auteur": " WEISLINGER ERIC",
+     "Qte": 2,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": "775_776"
+    },
+    {
+     "N_item": 11,
+     "Matiere": "Automatique",
+     "Titre": "CAMPUS AUTOMATIQUE - DU CAHIER DES CHARGES A LA REALISATION DE SYSTEMES",
+     "Auteur": " HUSSON+IUNG+AUBRY+DA",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 12,
+     "Matiere": "Physique",
+     "Titre": "MECANIQUE DU POINT - NIVEAU L1",
+     "Auteur": " THIONNET ALAIN",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 777
+    },
+    {
+     "N_item": 13,
+     "Matiere": "Physique",
+     "Titre": "MECANIQUE DU POINT",
+     "Auteur": " VILLAIN LOIC",
+     "Qte": 1,
+     "Editeur": " DE BOECK SUP",
+     "N_INV": 924
+    },
+    {
+     "N_item": 14,
+     "Matiere": "Physique",
+     "Titre": "MECANIQUE DES SYSTEMES COURS EXERCICES ET PROBLEMES RESOLUS",
+     "Auteur": " GAMAL ZEGGWAGH",
+     "Qte": 1,
+     "Editeur": " AFRIQUE ORIENT",
+     "N_INV": 986
+    },
+    {
+     "N_item": 15,
+     "Matiere": "Physique",
+     "Titre": "COURS DE PHYSIQUE - LICENCE - T01 - MECANIQUE DU POINT - 2E ED. - COURS ET EXERCICES CORRIGES",
+     "Auteur": " GIBAUD\/HENRY",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 815
+    },
+    {
+     "N_item": 16,
+     "Matiere": "Physique",
+     "Titre": "MINI MANUEL DE MECANIQUE DU POINT - 2E EDITION - COURS ET EXERCICES CORRIGES",
+     "Auteur": "MICHEL |  HENRY+DELORME ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 905
+    },
+    {
+     "N_item": 17,
+     "Matiere": "Physique",
+     "Titre": "MECANIQUE DU POINT - 1RE ANNEE MPSI-PCSI-PTSI - EXERCICES CORRIGES",
+     "Auteur": "  TEYSSIER DAVID",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 778
+    },
+    {
+     "N_item": 18,
+     "Matiere": "Physique",
+     "Titre": "MECANIQUE DU SOLIDE - PROBLEMES RESOLUS POSES AUX CONCOURS",
+     "Auteur": " COLIN AIME",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 779
+    },
+    {
+     "N_item": 19,
+     "Matiere": "Physique",
+     "Titre": "VIBRATIONS, ONDES ET OPTIQUE VOL. 4 : ONDES OPTIQUES",
+     "Auteur": " BECHERRAWY TAMER",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 973
+    },
+    {
+     "N_item": 20,
+     "Matiere": "Physique",
+     "Titre": "MECANIQUE DES MILIEUX DEFORMABLES - EQUATIONS GENERALES, SOLIDES, ELASTIQUES, FLUIDES, TURBOMACHINES",
+     "Auteur": " FOURAR CHEZE",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 789
+    },
+    {
+     "N_item": 21,
+     "Matiere": "Physique",
+     "Titre": "RESISTANCE DES MATERIAUX - COURS - EXERCICES CORRIGES.",
+     "Auteur": " DOUBRERE JEAN-CLAUDE",
+     "Qte": 1,
+     "Editeur": " EYROLLES",
+     "N_INV": 939
+    },
+    {
+     "N_item": 22,
+     "Matiere": "Physique",
+     "Titre": "RESISTANCE MECANIQUE DES MATERIAUX ET DES STRUCTURES - 2E ED. - COURS ET EXERCICES CORRIGES",
+     "Auteur": " LEMAITRE+HILD+BOUCAR",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 858
+    },
+    {
+     "N_item": 23,
+     "Matiere": "Physique",
+     "Titre": "MECANIQUE DES FLUIDES - 3E ED. - COURS, 70 EXERCICES CORRIGES",
+     "Auteur": "AMIROUDINE\/BATTAGLIA",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 816
+    },
+    {
+     "N_item": 24,
+     "Matiere": "Physique",
+     "Titre": "CAMPUS MECANIQUE DES FLUIDES EN 20 FICHES 2ED",
+     "Auteur": " BIGOT+MAUDUIT+WENNER",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 859
+    },
+    {
+     "N_item": 25,
+     "Matiere": "Physique",
+     "Titre": "OPTIQUE PCSI - EXERCICES CORRIGES",
+     "Auteur": " FRERE KREMPF",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 781
+    },
+    {
+     "N_item": 26,
+     "Matiere": "Physique",
+     "Titre": "PHYSIQUE 2E ANNEE PC PC* (COLLECTION LE COURS COMPLET)",
+     "Auteur": " OLIVIER STEPHANE",
+     "Qte": 1,
+     "Editeur": " TECHNIQUE &amp; DOC",
+     "N_INV": 974
+    },
+    {
+     "N_item": 27,
+     "Matiere": "Physique",
+     "Titre": "COURS DE PHYSIQUE : FONDEMENTS ET APPLICATIONS - T01 - OPTIQUE : FONDEMENTS ET APPLICATIONS - 7E ED",
+     "Auteur": " PEREZ JOSE-PHILIPPE  ANTERRIEU",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 925
+    },
+    {
+     "N_item": 28,
+     "Matiere": "Physique",
+     "Titre": "OPTIQUE EXPERIMENTALE",
+     "Auteur": "   SEXTANT",
+     "Qte": 1,
+     "Editeur": " HERMANN",
+     "N_INV": 860
+    },
+    {
+     "N_item": 29,
+     "Matiere": "Physique",
+     "Titre": "OPTIQUE GEOMETRIQUE, AVEC EXERCICES ET SOLUTIONS",
+     "Auteur": " MOLLER BELORGEO",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 782
+    },
+    {
+     "N_item": 30,
+     "Matiere": "Physique",
+     "Titre": "THEORIE ANALYTIQUE DE LA PROPAGATION DE LA CHALEUR",
+     "Auteur": " POINCARE HENRI",
+     "Qte": 1,
+     "Editeur": " JACQUES GABAY",
+     "N_INV": 981
+    },
+    {
+     "N_item": 31,
+     "Matiere": "Physique",
+     "Titre": "CAMPUS INTRODUCTION AUX TRANSFERTS THERMIQUES - 2E EDITION",
+     "Auteur": "BATTAGLIA+KUSIAK+PUI",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 817
+    },
+    {
+     "N_item": 32,
+     "Matiere": "Physique",
+     "Titre": "THERMODYNAMIQUE FONDAMENTALE - COURS ET PROBLEMES RESOLUS",
+     "Auteur": "BEDORET ROBERT",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 783
+    },
+    {
+     "N_item": 33,
+     "Matiere": "Physique",
+     "Titre": "CAMPUS INGENIERIE MECANIQUE - TOME 1 - 4E ED. - BASES DE LA CONSTRUCTION ET ECOCONCEPTION",
+     "Auteur": " ESNAULT FRANCIS",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 34,
+     "Matiere": "Physique",
+     "Titre": "THERMODYNAMIQUE - FICHES, METHODES ET EXERCICES CORRIGES - 1RE ANNEE MPSI-PCSI-PTSI",
+     "Auteur": "DUCROS XAVIER",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 784
+    },
+    {
+     "N_item": 35,
+     "Matiere": "Physique",
+     "Titre": "THERMODYNAMIQUE OPTIMALE EN DIMENSIONS PHYSIQUES FINIES (COLLECTION THERMIQUE)",
+     "Auteur": " FEIDT MICHEL",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 987
+    },
+    {
+     "N_item": 36,
+     "Matiere": "Physique",
+     "Titre": "THERMODYNAMIQUE DES SYSTEMES FLUIDES ET DES MACHINES THERMIQUES : PRINCIPES, MODELES ET APPLICATIONS",
+     "Auteur": " FOHR JEAN-PAUL",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 975
+    },
+    {
+     "N_item": 37,
+     "Matiere": "Physique",
+     "Titre": "ENERGETIQUE - PHENOMENES DE TRANSFERTS - TRANSFERTS DIFFUSIFS, CONVECTIFS, ONDULATOIRES ET COUPLAGE",
+     "Auteur": " LALLEMAND ANDRE",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 785
+    },
+    {
+     "N_item": 38,
+     "Matiere": "Electronique",
+     "Titre": "GENIE ELECTRIQUE - ELECTROSTATIQUE - COURS, APPLICATIONS ET EXERCICES CORRIGES (NIVEAU B)",
+     "Auteur": " AKBI |  AKBI MOHAMED",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 786
+    },
+    {
+     "N_item": 39,
+     "Matiere": "Electronique",
+     "Titre": "ELECTROMAGNETISME - APPROCHE UNIFIEE EN OPTIQUE, MICRO-ONDES ET CIRCUITS - RESUMES DE COURS ET PROBL",
+     "Auteur": " BAUDRAND FONTGALLAND",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 787
+    },
+    {
+     "N_item": 40,
+     "Matiere": "Electronique",
+     "Titre": "ELECTROMAGNETISME - EQUATIONS INTEGRALES DE L ELECTROMAGNETISME - APPLICATION AUX PROBLEMES AXISYMET",
+     "Auteur": " BERTHON ANDRE",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 788
+    },
+    {
+     "N_item": 41,
+     "Matiere": "Electronique",
+     "Titre": "PHYSIQUE APPLIQUEE - BTS SYSTEMES ELECTRONIQUES - 1RE ANNEE",
+     "Auteur": " CHANDELIER FREDERIC",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 789
+    },
+    {
+     "N_item": 42,
+     "Matiere": "Electronique",
+     "Titre": "ELECTROCINETIQUE - 1RE ANNEE MPSI-PCSI-PTSI - EXERCICES CORRIGES",
+     "Auteur": " DESVOIVRES EMMANUEL",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 790
+    },
+    {
+     "N_item": 43,
+     "Matiere": "Electronique",
+     "Titre": "COURS DE PHYSIQUE : FONDEMENTS ET APPLICATIONS - T01 - ELECTROMAGNETISME : FONDEMENTS ET APPLICATION",
+     "Auteur": " PEREZ\/CARLES",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 906
+    },
+    {
+     "N_item": 44,
+     "Matiere": "Electronique",
+     "Titre": "ELECTROSTATIQUE ET MAGNETOSTATIQUE - TOME II - RAPPELS DE COURS ET EXERCICES",
+     "Auteur": " BRUNEAUX J. ET ALII",
+     "Qte": 1,
+     "Editeur": " BELIN |  BELIN EDUCATION",
+     "N_INV": 988
+    },
+    {
+     "N_item": 45,
+     "Matiere": "Electronique",
+     "Titre": "15 PROBLEMES D ELECTROSTATIQUE ET MAGNETOSTATIQUE - 1ERE ANNEE MPSI PCSI PTSI",
+     "Auteur": "JANNAUD LIONEL",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 791
+    },
+    {
+     "N_item": 46,
+     "Matiere": "Electronique",
+     "Titre": "PHYSIQUE POUR L'ELECTRONIQUE - CORPUSCULES, ONDES, ETATS QUANTIQUES, MECANIQUE STATISTIQUE, STRUCTUR",
+     "Auteur": " DEVILLE",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 792
+    },
+    {
+     "N_item": 47,
+     "Matiere": "Electronique",
+     "Titre": "CAMPUS - TRANSMISSION DE PUISSANCE - INGENIERIE MECANIQUE - 2E ED. - TRANSMISSION DE",
+     "Auteur": " ESNAULT FRANCIS",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 48,
+     "Matiere": "Génie mécanique",
+     "Titre": "INCERTITUDES, OPTIMISATION ET FIABILITE DES STRUCTURES",
+     "Auteur": " EL HAMI ABDELKHALAK",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 976
+    },
+    {
+     "N_item": 49,
+     "Matiere": "Génie mécanique",
+     "Titre": "LA CONCEPTION MECANIQUE - 2E ED. - METHODOLOGIE ET OPTIMISATION",
+     "Auteur": " BOISSEAU PHILIPPE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 907
+    },
+    {
+     "N_item": 50,
+     "Matiere": "Génie mécanique",
+     "Titre": "METHODE DES ELEMENTS FINIS - 2E ED. - APPROCHE PRATIQUE EN MECANIQUE DES STRUCTURES",
+     "Auteur": " CAZENAVE MICHEL",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 861
+    },
+    {
+     "N_item": 51,
+     "Matiere": "Génie mécanique",
+     "Titre": "MECANIQUE DU SOLIDE - 2EME EDITION - APPLICATIONS INDUSTRIELLES",
+     "Auteur": " AGATI PIERRE |  AGATI\/DELVILL",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 818
+    },
+    {
+     "N_item": 52,
+     "Matiere": "Génie mécanique",
+     "Titre": "CONCEPTION, FABRICATION ET DURABILITE",
+     "Auteur": " CAROLIN |  RICHARD BIGEREL",
+     "Qte": 1,
+     "Editeur": " ECOLE DES MINES",
+     "N_INV": 940
+    },
+    {
+     "N_item": 53,
+     "Matiere": "Energetique",
+     "Titre": "LES ENERGIES RENOUVELABLES",
+     "Auteur": " CLAUDE ACKET",
+     "Qte": 1,
+     "Editeur": " TECHNIP",
+     "N_INV": 982
+    },
+    {
+     "N_item": 54,
+     "Matiere": "Energetique",
+     "Titre": "PROMESSES ET REALITES DES ENERGIES RENOUVELABLES",
+     "Auteur": "  WIESENFELD BERNARD",
+     "Qte": 1,
+     "Editeur": " EDP SCIENCES",
+     "N_INV": 941
+    },
+    {
+     "N_item": 55,
+     "Matiere": "Energetique",
+     "Titre": "MINI-CENTRALES HYDROELECTRIQUES",
+     "Auteur": " LAVY PIERRE",
+     "Qte": 1,
+     "Editeur": " EYROLLES",
+     "N_INV": 942
+    },
+    {
+     "N_item": 56,
+     "Matiere": "Electronique",
+     "Titre": "GENIE ELECTRIQUE - ELECTROCINETIQUE - COURS, APPLICATIONS, EXERCICES CORRIGES (NIVEAU B)",
+     "Auteur": "AKBI MOHAMED",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 793
+    },
+    {
+     "N_item": 57,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES POUR LE TRAITEMENT DU SIGNAL - 2E ED. COURS ET EXERCICES CORRIGES",
+     "Auteur": "  BERGOUNIOUX MAITINE ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 908
+    },
+    {
+     "N_item": 58,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES DU SIGNAL - 3EME EDITION - RAPPELS DE COURS ET EXERCICES RESOLUS",
+     "Auteur": " GHORBANZADEH DARIUSH",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 862
+    },
+    {
+     "N_item": 59,
+     "Matiere": "Energetique",
+     "Titre": "LES EOLIENNES - THEORIE, CONCEPTION ET CALCUL PRATIQUE",
+     "Auteur": " GOURIERES DESIRE",
+     "Qte": 1,
+     "Editeur": " MOULIN CADIOU",
+     "N_INV": 943
+    },
+    {
+     "N_item": 60,
+     "Matiere": "Energetique",
+     "Titre": "ENERGIE SOLAIRE - CALCULS ET OPTIMISATION - GENIE ENERGETIQUE - NIVEAU B - 2E EDITION",
+     "Auteur": "BERNARD JACQUES",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 794
+    },
+    {
+     "N_item": 61,
+     "Matiere": "Energetique",
+     "Titre": "INSTALLATIONS SOLAIRES PHOTOVOLTAIQUES AUTONOMES - CONCEPTION ET INSTALLATION D'UNITES NON RACCORDEE",
+     "Auteur": " HANKINS MARK ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 863
+    },
+    {
+     "N_item": 62,
+     "Matiere": "Energetique",
+     "Titre": "SATELLITE SOLAR POWER STATION",
+     "Auteur": " XXX",
+     "Qte": 1,
+     "Editeur": " LAP LAMBERT ACADEMIC PUBLISHING",
+     "N_INV": 961
+    },
+    {
+     "N_item": 63,
+     "Matiere": "Energetique",
+     "Titre": "CAMPUS LES POMPES A CHALEUR",
+     "Auteur": " LEMALE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 864
+    },
+    {
+     "N_item": 64,
+     "Matiere": "Génie industriel",
+     "Titre": "ANALYSE VIBRATOIRE EN MAINTENANCE - 3E ED. - SURVEILLANCE ET DIAGNOSTIC DES MACHINES - NP",
+     "Auteur": "ALAIN |   BOULENGER+PACHAUD ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 909
+    },
+    {
+     "N_item": 65,
+     "Matiere": "Génie mécanique",
+     "Titre": "MECANIQUE DES STRUCTURES : EXEMPLES COMMENTES",
+     "Auteur": "BERLIOZ ALAIN",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 989
+    },
+    {
+     "N_item": 66,
+     "Matiere": "Robotique",
+     "Titre": "ROBOTIQUE - TRAITE DE ROBOTIQUE 1 - LES ARCHITECTURES. CONCEPTION, MODELISATIONS, EQUATIONS, OPTIMIS",
+     "Auteur": " BOP |  BOP CHARLES",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 795
+    },
+    {
+     "N_item": 67,
+     "Matiere": "Robotique",
+     "Titre": "ROBOTIQUE - TRAITE DE ROBOTIQUE 3 - LA PARTIE COMMANDE - GESTUELLE, COMMANDES, PRECISION, VIBRATIONS",
+     "Auteur": " BOP |  BOP CHARLES",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 796
+    },
+    {
+     "N_item": 68,
+     "Matiere": "Management",
+     "Titre": "PROCESSUS D'INNOVATION ET RESILIENCE DES EXPLOITATIONS AGRICOLES A MADAGASCAR",
+     "Auteur": " PENOT ERIC",
+     "Qte": 1,
+     "Editeur": " L'HARMATTAN",
+     "N_INV": 959
+    },
+    {
+     "N_item": 69,
+     "Matiere": "Génie industriel",
+     "Titre": "L'ECOCONCEPTION",
+     "Auteur": " THOMAS PASCAL",
+     "Qte": 1,
+     "Editeur": " AFNOR",
+     "N_INV": 856
+    },
+    {
+     "N_item": 70,
+     "Matiere": "Management",
+     "Titre": "LES FONDAMENTAUX DU MANAGEMENT STRATEGIQUE",
+     "Auteur": " MOHAMMED BEN TAHAR",
+     "Qte": 1,
+     "Editeur": " EDILIVRE-APARIS |  APARIS"
+    },
+    {
+     "N_item": 71,
+     "Matiere": "Management",
+     "Titre": "LES FONDAMENTAUX DU MANAGEMENT",
+     "Auteur": " MOHAMMED BENTAHAR",
+     "Qte": 1,
+     "Editeur": " EDILIVRE-APARIS |  APARIS"
+    },
+    {
+     "N_item": 72,
+     "Matiere": "Management",
+     "Titre": "MATHEMATIQUES POUR LA GESTION",
+     "Auteur": " VIDAL OLIVIER",
+     "Qte": 1,
+     "Editeur": " VUIBERT",
+     "N_INV": 926
+    },
+    {
+     "N_item": 73,
+     "Matiere": "Management",
+     "Titre": "MANAGEMENT DES ORGANISATIONS",
+     "Auteur": "  CAVAGNOL A. ROULLE P",
+     "Qte": 1,
+     "Editeur": " GUALINO",
+     "N_INV": 944
+    },
+    {
+     "N_item": 74,
+     "Matiere": "Management",
+     "Titre": "REINVENTER L'ENTREPRENEURIAT - POUR SOI, POUR NOUS, POUR EUX",
+     "Auteur": " ADAM MICHEL",
+     "Qte": 1,
+     "Editeur": " L'HARMATTAN",
+     "N_INV": 957
+    },
+    {
+     "N_item": 75,
+     "Matiere": "Management",
+     "Titre": "ENTREPRENEURIAT ET INNOVATION - CONTEXTES ET CONCEPT",
+     "Auteur": " BOUTILLIER SOPHIE |  Collectif et Sophie B",
+     "Qte": 1,
+     "Editeur": " PETER LANG |  PETER LANG AG",
+     "N_INV": 866
+    },
+    {
+     "N_item": 76,
+     "Matiere": "Génie industriel",
+     "Titre": "FIABILISER LES EQUIPEMENTS INDUSTRIELS",
+     "Auteur": " BUFFERNE JEAN",
+     "Qte": 1,
+     "Editeur": " ORGANISATION",
+     "N_INV": 945
+    },
+    {
+     "N_item": 77,
+     "Matiere": "Management",
+     "Titre": "MANAGEMENT HUMAIN",
+     "Auteur": " TASKIN LAURENT",
+     "Qte": 1,
+     "Editeur": " DE BOECK SUP",
+     "N_INV": 964
+    },
+    {
+     "N_item": 78,
+     "Matiere": "Génie mécanique",
+     "Titre": "MATERIAUX - 4E ED. - T1 PROPRIETES, APPLICATIONS ET CONCEPTION",
+     "Auteur": " ASHBY+JONES |  ASHBY MICHAEL F. ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 910
+    },
+    {
+     "N_item": 79,
+     "Matiere": "Energetique",
+     "Titre": "LES POMPES A CHALEUR GEOTHERMIQUES - TRES BASSE ENERGIE. GUIDE DE L'INSTALLATEUR",
+     "Auteur": " COSTIC COMITE S",
+     "Qte": 1,
+     "Editeur": " SEBTP",
+     "N_INV": 946
+    },
+    {
+     "N_item": 80,
+     "Matiere": "Génie industriel",
+     "Titre": "PROBLEMATIQUES DE LA LOGISTIQUE",
+     "Auteur": "VALLIN\/PHILIPPE",
+     "Qte": 1,
+     "Editeur": "ECONOMICA",
+     "N_INV": 927
+    },
+    {
+     "N_item": 81,
+     "Matiere": "Génie mécanique",
+     "Titre": "CONSTRUCTION MECANIQUE - TRANSMISSION DE PUISSANCE - INGENIERIE MECANIQUE - 4E ED. - TOME 3 - ROUES",
+     "Auteur": " ESNAULT FRANCIS",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 82,
+     "Matiere": "Génie mécanique",
+     "Titre": "ANALYSE NUMERIQUE",
+     "Auteur": " CANON |  CANON ERIC",
+     "Qte": 1,
+     "Editeur": " VUIBERT |  DE BOECK SUP",
+     "N_INV": 928
+    },
+    {
+     "N_item": 83,
+     "Matiere": "Génie mécanique",
+     "Titre": "INTRODUCTION A LA SCIENCE DES MATERIAUX - TRAITE DES MATERIAUX - VOLUME 1",
+     "Auteur": "KURZ\/MERCIER",
+     "Qte": 1,
+     "Editeur": " PU POLYTECHNIQU",
+     "N_INV": 947
+    },
+    {
+     "N_item": 84,
+     "Matiere": "Mathématique",
+     "Titre": "AIDE-MEMOIRE - STATISTIQUE ET PROBABILITES POUR LES INGENIEURS",
+     "Auteur": " VEYSSEYRE RENEE |  VEYSSEYRE |  XXX",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 85,
+     "Matiere": "Mathématique",
+     "Titre": "LA METHODE DES ELEMENTS FINIS - TOME 2 - DE LA THEORIE A LA PRATIQUE. COMPLEMENTS.",
+     "Auteur": " BECACHE ELIANE |  CIARLET",
+     "Qte": 1,
+     "Editeur": " ENSTA",
+     "N_INV": 948
+    },
+    {
+     "N_item": 86,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES POUR LES PHYSICIENS ET LES INGENIEURS AVEC CD-ROM INCLUS",
+     "Auteur": "WELTNER K.",
+     "Qte": 2,
+     "Editeur": " DE BOECK SUP |  DE BOECK",
+     "N_INV": "929_930"
+    },
+    {
+     "N_item": 87,
+     "Matiere": "Mathématique",
+     "Titre": "METHODES NUMERIQUES: ALGORITHMES, ANALYSE ET APPLICATIONS  ",
+     "Auteur": " ALFIO QUARTERONI",
+     "Qte": 2,
+     "Editeur": " SPRINGER VERLAG",
+     "N_INV": "949_950"
+    },
+    {
+     "N_item": 88,
+     "Matiere": "Mathématique",
+     "Titre": "COURBES ELLIPTIQUES : UNE PRESENTATION ELEMENTAIRE POUR LA CRYPTOGRAPHIE (COLL. INFORMATIQUE)",
+     "Auteur": " GUILLOT PHILIPPE",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 977
+    },
+    {
+     "N_item": 89,
+     "Matiere": "Mathématique",
+     "Titre": "EXERCICES CORRIGES D'ALGEBRE LINEAIRE",
+     "Auteur": "ETIENNE DAMIEN",
+     "Qte": 2,
+     "Editeur": " DE BOECK SUP |  DE BOECK",
+     "N_INV": "965_966"
+    },
+    {
+     "N_item": 90,
+     "Matiere": "Mathématique",
+     "Titre": "EXERCICES CORRIGES D'ALGEBRE LINEAIRE",
+     "Auteur": "ETIENNE DAMIEN",
+     "Qte": 2,
+     "Editeur": " DE BOECK SUP |  DE BOECK",
+     "N_INV": "967_968"
+    },
+    {
+     "N_item": 91,
+     "Matiere": "Génie mécanique",
+     "Titre": "CAMPUS MATERIAUX - 4E ED. T.2 MICROSTRUCTURES, MISE EN OEUVRE ET CONCEPTION",
+     "Auteur": " ASHBY",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 92,
+     "Matiere": "Energetique",
+     "Titre": "L'ENERGIE SOLAIRE, THERMIQUE ET PHOTOVOLTAIQUE",
+     "Auteur": " TISSOT MICHEL",
+     "Qte": 1,
+     "Editeur": " EYROLLES",
+     "N_INV": 951
+    },
+    {
+     "N_item": 93,
+     "Matiere": "Energetique",
+     "Titre": "ENERGIES RENOUVELABLES - ETAT DES LIEUX",
+     "Auteur": " CLAUDE ACKET",
+     "Qte": 1,
+     "Editeur": " TECHNIP",
+     "N_INV": 983
+    },
+    {
+     "N_item": 94,
+     "Matiere": "Energetique",
+     "Titre": "REGULATION EN GENIE CLIMATIQUE - 4E ED. - FROID - CLIMATISATION - CHAUFFAGE",
+     "Auteur": " DESMONS\/LE ROY",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 95,
+     "Matiere": "Energetique",
+     "Titre": "ENERGETIQUE - MACHINES HYDRAULIQUES ET THERMIQUES - RESUMES ET PROBLEMES CORRIGES (NIVEAU C)",
+     "Auteur": " LALLEMAND |  LALLEMAND ANDRE",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 797
+    },
+    {
+     "N_item": 96,
+     "Matiere": "Génie mécanique",
+     "Titre": "MATERIAUX COMPOSITES - 2E ED.",
+     "Auteur": " BATHIAS CLAUDE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 867
+    },
+    {
+     "N_item": 97,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES POUR LES TELECOMS (COLLECTION TECHNIQUE ET SCIENTIFIQUE DES TELECOMMUNICATIONS)",
+     "Auteur": " FICHE GEORGES",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 978
+    },
+    {
+     "N_item": 98,
+     "Matiere": "Energetique",
+     "Titre": "LA BIOMASSE ENERGIE - DEFINITIONS, RESSOURCES ET MODES DE TRANSFORMATION - 2E EDITION",
+     "Auteur": " DAMIEN ALAIN ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 962
+    },
+    {
+     "N_item": 99,
+     "Matiere": "Génie mécanique",
+     "Titre": "VEHICULES HYBRIDES",
+     "Auteur": " FRANCOIS BADIN",
+     "Qte": 1,
+     "Editeur": " TECHNIP",
+     "N_INV": 984
+    },
+    {
+     "N_item": 100,
+     "Matiere": "Génie mécanique",
+     "Titre": "CAMPUS MECANIQUE APPLIQUEE 2EME ED",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 819
+    },
+    {
+     "N_item": 101,
+     "Matiere": "Génie mécanique",
+     "Titre": "MECANIQUE DE LA RUPTURE FRAGILE ET DUCTILE (COLL. ETUDES EN MECANIQUE DES MATERIAUX ET DES STRUCTURE",
+     "Auteur": "LEBLOND JEAN-BAPTIST",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 990
+    },
+    {
+     "N_item": 102,
+     "Matiere": "Mathématique",
+     "Titre": "INTRODUCTION A L'ANALYSE NUMERIQUE DES EQUATIONS AUX DERIVEES PARTIELLES - MATHEMATIQUES APPLIQUEES",
+     "Auteur": " RAVIART PIERRE-ARNAU",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "868_869"
+    },
+    {
+     "N_item": 103,
+     "Matiere": "Informatique",
+     "Titre": "ARDUINO POUR LA DOMOTIQUE",
+     "Auteur": "SCHWARTZ MARC-OLIVIE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 870
+    },
+    {
+     "N_item": 104,
+     "Matiere": "Mathématique",
+     "Titre": "EXERCICES CORRIGES DE MATHEMATIQUES",
+     "Auteur": "DUPONT PASCAL",
+     "Qte": 2,
+     "Editeur": " DE BOECK |  DE BOECK SUP",
+     "N_INV": "969_970"
+    },
+    {
+     "N_item": 105,
+     "Matiere": "Mathématique",
+     "Titre": "ANALYSE",
+     "Auteur": "  COTTET-EMARD F.",
+     "Qte": 1,
+     "Editeur": " DE BOECK SUP |  DE BOECK",
+     "N_INV": 931
+    },
+    {
+     "N_item": 106,
+     "Matiere": "Mathématique",
+     "Titre": "ALGEBRE LINEAIRE ET BILINEAIRE",
+     "Auteur": "COTTET-EMARD FRANCOI |",
+     "Qte": 2,
+     "Editeur": " DE BOECK SUP |  DE BOECK",
+     "N_INV": "971_972"
+    },
+    {
+     "N_item": 107,
+     "Matiere": "Génie mécanique",
+     "Titre": "CHOIX DES MATERIAUX EN CONCEPTION MECANIQUE NP",
+     "Auteur": " ASHBY MICHAEL F.",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 871
+    },
+    {
+     "N_item": 108,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES FINANCIERES, METHODES MATHEMATIQUES POUR LA FINANCE, VALORISATION DE PRODUITS, GESTION",
+     "Auteur": " ARGAUD DUBOIS |  ARGAUD\/DUBOIS",
+     "Qte": 2,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": "798_799"
+    },
+    {
+     "N_item": 109,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES FINANCIERES - LES POINTS CLES POUR MAITRISER LES CALCULS FINANCIERS EN FINANCE ET EN G",
+     "Auteur": " BARATAY CHRISTELLE ",
+     "Qte": 2,
+     "Editeur": " GUALINO",
+     "N_INV": "952_953"
+    },
+    {
+     "N_item": 110,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES METHODES ET EXERCICES PC-PSI-PT - 3E ED.",
+     "Auteur": " MONIER JEAN-MARIE |  MONIER\/HABERER",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "872_873"
+    },
+    {
+     "N_item": 111,
+     "Matiere": "Mathématique",
+     "Titre": "MATHS MP - EXERCICES INCONTOURNABLES - 3E ED.",
+     "Auteur": " JULIEN FRESLON\/GUGGER",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "874_875"
+    },
+    {
+     "N_item": 112,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHS PC-PSI - EXERCICES INCONTOURNABLES - 3ED.",
+     "Auteur": " FRESLON JULIEN",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "820_821"
+    },
+    {
+     "N_item": 113,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES EXERCICES INCONTOURNABLES BCPST 1 - 2E ED.",
+     "Auteur": " ROUSSE VIDIAN ROUSSE\/BLANC",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "911_912"
+    },
+    {
+     "N_item": 114,
+     "Matiere": "Mathématique",
+     "Titre": "MATHS BCPST 1 METHODES ET EXERCICES",
+     "Auteur": " BEGYN ARNAUD |  XXX |  BEGYN\/CONNAN\/LEROY",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "913_914"
+    },
+    {
+     "N_item": 115,
+     "Matiere": "Mathématique",
+     "Titre": "MATHS ET INFORMATIQUE BCPST 2 - 4E ED. - METHODES ET EXERCICES",
+     "Auteur": "BEGYN\/MARTY\/MARENGO",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "822_823"
+    },
+    {
+     "N_item": 116,
+     "Matiere": "Mathématique",
+     "Titre": "ECS 1RE ANNEE - MATHS - TOUT-EN-UN - VALIDE PAR LES ELEVES",
+     "Auteur": " SARFATI OLIVIER |  XXX |  SARFATI\/BROSSARD",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "876_877"
+    },
+    {
+     "N_item": 117,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHEMATIQUES TOUT-EN-UN MP-MP* - CONFORME AU NOUVEAU PROGRAMME",
+     "Auteur": "DESCHAMPS+MOULIN+WAR",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "824_825"
+    },
+    {
+     "N_item": 118,
+     "Matiere": "Mathématique",
+     "Titre": "TOUTE LA MPSI EN FICHES - 2ED - MATHS, PHYSIQUE, CHIMIE",
+     "Auteur": "FREDON+CALLEA+MAGLOI | ",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "878_879"
+    },
+    {
+     "N_item": 119,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES EXERCICES INCONTOURNABLES ECS 1RE ANNEE - CONFORME AU NOUVEAU PROGRAMME",
+     "Auteur": " ROUSSE |  ROUSSE-V ",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "915_916"
+    },
+    {
+     "N_item": 120,
+     "Matiere": "Mathématique",
+     "Titre": "5 - COURS THEMATIQUES - T01 - ALGEBRE ET GEOMETRIE PC-PSI-PT - 5EME EDITION - COURS, METHODES ET EXE",
+     "Auteur": " MONIER JEAN-MARIE |  MONIER-J.M",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "880_881"
+    },
+    {
+     "N_item": 121,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHS PCSI-PTSI - METHODES ET EXERCICES- 4E ED.",
+     "Auteur": " MONIER JEAN-MARIE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "826_827"
+    },
+    {
+     "N_item": 122,
+     "Matiere": "Mathématique",
+     "Titre": "MATHS PT - EXERCICES INCONTOURNABLES",
+     "Auteur": " GUGGER SYLVAIN |  XXX",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "882_883"
+    },
+    {
+     "N_item": 123,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHS MPSI - METHODES ET EXERCICES - 4E ED.",
+     "Auteur": " MONIER JEAN-MARIE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "828_829"
+    },
+    {
+     "N_item": 124,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHEMATIQUES EXERCICES INCONTOURNABLES MPSI",
+     "Auteur": " FRESLON HEZARD POINE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "800_801"
+    },
+    {
+     "N_item": 125,
+     "Matiere": "Mathématique",
+     "Titre": "MATHEMATIQUES MPSI - TOUT-EN-UN - 5E ED.",
+     "Auteur": " DESCHAMPS CLAUDE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "802_803"
+    },
+    {
+     "N_item": 126,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHEMATIQUES TOUT-EN-UN PC\/PC*",
+     "Auteur": "DESCHAMPS+WARUSFELE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": 917
+    },
+    {
+     "N_item": 127,
+     "Matiere": "Mathématique",
+     "Titre": "MATHS ET INFORMATIQUE - VISA POUR LA PREPA 2018-2019 - MPSI-PCSI-PTSI-BCPST-ECS",
+     "Auteur": " CONNAN GUILLAUME |  XXX",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "884_885"
+    },
+    {
+     "N_item": 128,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS EXERCICES DE MATHEMATIQUES MP-MP* CENTRALE-SUPELEC, MINES-PONTS, ECOLE POLYTECHNIQUE ET ENS",
+     "Auteur": " DUGARDIN+REZZOUK",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "918_831"
+    },
+    {
+     "N_item": 129,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHEMATIQUES TOUT-EN-UN PSI \/ PSI*",
+     "Auteur": " DESCHAMPS CLAUDE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "832_833"
+    },
+    {
+     "N_item": 130,
+     "Matiere": "Mathématique",
+     "Titre": "CONCOURS PUISSANCE ALPHA - TOUT-EN-UN - 2019-2020",
+     "Auteur": " SPELLER M-V. |  SPELLER\/BENTOUZA",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 886
+    },
+    {
+     "N_item": 131,
+     "Matiere": "Mathématique",
+     "Titre": "FORMULAIRE MPSI-MP-PSI - 7E ED.",
+     "Auteur": " FREDON\/PORCHERON",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 919
+    },
+    {
+     "N_item": 132,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHEMATIQUES EXERCICES INCONTOURNABLES PCSI-PTSI - 2E ED.",
+     "Auteur": "FRESLON+HEZARD+POINE",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "920_834"
+    },
+    {
+     "N_item": 133,
+     "Matiere": "Mathématique",
+     "Titre": "CAMPUS MATHS PCSI-PTSI - 2E ED. - TOUT-EN-UN",
+     "Auteur": " DESCHAMPS\/MOULIN",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "887_835"
+    },
+    {
+     "N_item": 134,
+     "Matiere": "Mathématique",
+     "Titre": "MATHS METHODES ET EXERCICES MP - 4E ED.",
+     "Auteur": " MONIER JEAN-MARIE | HABERER",
+     "Qte": 2,
+     "Editeur": " DUNOD",
+     "N_INV": "836_837"
+    },
+    {
+     "N_item": 135,
+     "Matiere": "Mathématique",
+     "Titre": "MATHS ECE 1RE ANNEE - TOUT-EN-UN - VALIDE PAR LES ELEVES",
+     "Auteur": " SARFATI OLIVIER ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 838
+    },
+    {
+     "N_item": 136,
+     "Matiere": "Energetique",
+     "Titre": "ENERGIE ELECTRIQUE EOLIENNE - 2E ED. - PRODUCTION, PREVISION ET INTEGRATION AU RESEAU",
+     "Auteur": " FOX+FLYNN+JENKINS |  FOX BRENDAN",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 888
+    },
+    {
+     "N_item": 137,
+     "Matiere": "Energetique",
+     "Titre": "CAMPUS BATIMENT INTELLIGENT ET EFFICACITE ENERGETIQUE - OPTIMISATION, NOUVELLES TECHNOLOGIES ET BIM",
+     "Auteur": " BEDDIAR+LEMALE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 889
+    },
+    {
+     "N_item": 138,
+     "Matiere": "Energetique",
+     "Titre": "BIM ET ENERGETIQUE DES BATIMENTS",
+     "Auteur": " BEDDIAR KARIM |  ",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 839
+    },
+    {
+     "N_item": 139,
+     "Matiere": "Energetique",
+     "Titre": "INSTALLATIONS PHOTOVOLTAIQUES - 5E ED. - CONCEPTION ET DIMENSIONNEMENT D'INSTALLATIONS RACCORDEES AU",
+     "Auteur": " LABOURET+VILLOZ |  XXX",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 890
+    },
+    {
+     "N_item": 140,
+     "Matiere": "Energetique",
+     "Titre": "OPTIMISATION ENERGETIQUE D'UN SYSTEME DE STOCKAGE D'ENERGIE SOLAIRE - SOUS CONDITIONS ATMOSPHERIQUES",
+     "Auteur": " JENDOUBI ABDESSATTAR",
+     "Qte": 1,
+     "Editeur": " UNIV EUROPEENNE",
+     "N_INV": 840
+    },
+    {
+     "N_item": 141,
+     "Matiere": "Energetique",
+     "Titre": "DIAGNOSTIC DES PANNEAUX SOLAIRES. UNE APPROCHE PRATIQUE",
+     "Auteur": " KHENFER RIAD",
+     "Qte": 1,
+     "Editeur": " UNIV EUROPEENNE",
+     "N_INV": 891
+    },
+    {
+     "N_item": 142,
+     "Matiere": "Energetique",
+     "Titre": "COMMANDES OPTIMALES AVANCEES DES EOLIENNES - APPLICATION A  LA PARTICIPATION DES E OLIENNES AU RE GL",
+     "Auteur": " KHEZAMI NADHIRA",
+     "Qte": 1,
+     "Editeur": " UNIV EUROPEENNE",
+     "N_INV": 841
+    },
+    {
+     "N_item": 143,
+     "Matiere": "Energetique",
+     "Titre": "CONCEPTION, DIMENSIONNEMENT D'UN SYSTEME PHOTOVOLTAIQUE AUTONOME",
+     "Auteur": " FOUMOUO DOMINIQUE",
+     "Qte": 1,
+     "Editeur": " UNIV EUROPEENNE",
+     "N_INV": 842
+    },
+    {
+     "N_item": 144,
+     "Matiere": "Génie industriel",
+     "Titre": "CAMPUS POLITIQUE D'ACHAT ET GESTION DES APPROVISIONNEMENTS - 5E ED. - ENJEUX, PROBLEMATIQUES, ORGANIS - ENJ",
+     "Auteur": " BRUEL\/MENAGE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 843
+    },
+    {
+     "N_item": 145,
+     "Matiere": "Génie industriel",
+     "Titre": "CAMPUS MANAGEMENT DE LA MAINTENANCE - 3E ED. -",
+     "Auteur": " CUIGNET RENAUD",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 844
+    },
+    {
+     "N_item": 146,
+     "Matiere": "Génie industriel",
+     "Titre": "LE GRAND LIVRE DE LA QUALITE - MANAGEMENT PAR LA QUALITE DANS L'INDUSTRIE, UNE AFFAIRE DE METHODES",
+     "Auteur": " ERNOUL",
+     "Qte": 1,
+     "Editeur": " AFNOR",
+     "N_INV": 892
+    },
+    {
+     "N_item": 147,
+     "Matiere": "Génie industriel",
+     "Titre": "MANAGEMENT DE LA PRODUCTION - 4EME EDITION - CONCEPTS. METHODES. CAS.",
+     "Auteur": " GRATACAP+MEDAN",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 893
+    },
+    {
+     "N_item": 148,
+     "Matiere": "Génie industriel",
+     "Titre": "CAMPUS LOGISTIQUE INDUSTRIELLE ET ORGANISATION - 5E ED. - COURS, EXERCICES ET ETUDES DE CAS",
+     "Auteur": " JAVEL GEORGES",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 845
+    },
+    {
+     "N_item": 149,
+     "Matiere": "Génie industriel",
+     "Titre": "PRATIQUE DE LA GESTION INDUSTRIELLE - ORGANISATION, METHODES ET OUTILS",
+     "Auteur": " JAVEL GEORGES |  JAVEL",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 921
+    },
+    {
+     "N_item": 150,
+     "Matiere": "Génie industriel",
+     "Titre": "SUPPLY CHAIN MANAGEMENT - 2E ED. - ACHAT, PRODUCTION, LOGISTIQUE, TRANSPORT, VENTE",
+     "Auteur": "LE MOIGNE REMY |  XXX",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 894
+    },
+    {
+     "N_item": 151,
+     "Matiere": "Génie industriel",
+     "Titre": "CAMPUS PRECIS DE GESTION DES RISQUES - L'ESSENTIEL DU COURS, FICHES-OUTILS ET EXERCICES CORRIGES",
+     "Auteur": " LESBATS",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 846
+    },
+    {
+     "N_item": 152,
+     "Matiere": "Génie industriel",
+     "Titre": "LEAN MANAGEMENT - METHODES ET EXERCICES",
+     "Auteur": " LYONNET |  LYONNET BARBARA |  XXX",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 895
+    },
+    {
+     "N_item": 153,
+     "Matiere": "Génie industriel",
+     "Titre": "GESTION DE PROJETS AVANCEE. STRUCTURATION 3D. PILOTAGE DES  DELAIS ET DES COUTS. MANAGEMENT DE PROJE",
+     "Auteur": " MOINE JEAN YVES",
+     "Qte": 1,
+     "Editeur": " AFNOR",
+     "N_INV": 896
+    },
+    {
+     "N_item": 154,
+     "Matiere": "Génie industriel",
+     "Titre": "KANBAN - L'APPROCHE EN FLUX POUR L'ENTREPRISE AGILE",
+     "Auteur": " MORISSEAU LAURENT",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 847
+    },
+    {
+     "N_item": 155,
+     "Matiere": "Génie industriel",
+     "Titre": "SIX SIGMA. LA FORCE DU CHANGEMENT EN PERIODE DE CRISE !",
+     "Auteur": " PASCART EMMANUE",
+     "Qte": 1,
+     "Editeur": " AFNOR",
+     "N_INV": 897
+    },
+    {
+     "N_item": 156,
+     "Matiere": "Génie industriel",
+     "Titre": "OPTIMISEZ VOTRE CHAINE LOGISTIQUE - PREVOIR LA DEMANDE, GERER LES APPROVISIONNEMENTS ET LES STOCKS",
+     "Auteur": " ROQUES",
+     "Qte": 1,
+     "Editeur": " AFNOR",
+     "N_INV": 848
+    },
+    {
+     "N_item": 157,
+     "Matiere": "Génie industriel",
+     "Titre": "ECO-CONCEPTION",
+     "Auteur": "  SCHIESSER PHILIPPE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 922
+    },
+    {
+     "N_item": 158,
+     "Matiere": "Génie industriel",
+     "Titre": "CAMPUS AIDE-MEMOIRE - FROID INDUSTRIEL - 4E ED",
+     "Auteur": " DESMONS JEAN",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 159,
+     "Matiere": "Génie industriel",
+     "Titre": "AIDE-MEMOIRE - MAINTENANCE ET GMAO - TABLEAUX DE BORD, ORGANISATION, PROCEDURES",
+     "Auteur": " VERNIER JEAN-PIERRE",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 923
+    },
+    {
+     "N_item": 160,
+     "Matiere": "Electronique",
+     "Titre": "ELECTRONIQUE, ELECTRICITE ET MECATRONIQUE AUTOMOBILE (TRAITE EGEM, SERIE GENIE ELECTRIQUE)",
+     "Auteur": "  BERETTA JOSEPH",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 979
+    },
+    {
+     "N_item": 161,
+     "Matiere": "Electronique",
+     "Titre": "SYSTÈMES MÉCATRONIQUES EMBARQUÉS LES VOL. 2. ANALYSE DES CAUSES DE DÉFAILLANCES, MODÉLISATION, SIMULATION ET OPTIMISATION",
+     "Auteur": " EL HAMI ET AL",
+     "Qte": 1,
+     "Editeur": " ISTE",
+     "N_INV": 932
+    },
+    {
+     "N_item": 162,
+     "Matiere": "Electronique",
+     "Titre": "&nbsp;FIABILITE DES SYSTEMES MECATRONIQUES 2",
+     "Auteur": " EL HAMI ET AL",
+     "Qte": 1,
+     "Editeur": " ISTE",
+     "N_INV": 935
+    },
+    {
+     "N_item": 163,
+     "Matiere": "Robotique",
+     "Titre": "ROBOTIQUE FLEXIBLE. MANIPULATION MULTI-ECHELLE (TRAITE SYSTEMES AUTOMATISES, IC2)",
+     "Auteur": " GROSSARD MATHIEU",
+     "Qte": 1,
+     "Editeur": " HERMES SCIENCE",
+     "N_INV": 980
+    },
+    {
+     "N_item": 164,
+     "Matiere": "Robotique",
+     "Titre": "MECATRONIQUE - 2E ED.",
+     "Auteur": " BIRGLEN LIONEL |  XXX",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 849
+    },
+    {
+     "N_item": 165,
+     "Matiere": "Génie mécanique",
+     "Titre": "CAMPUS INGENIERIE MECANIQUE - TOME 1 - 4E ED. - BASES DE LA CONSTRUCTION ET ECOCONCEPTION",
+     "Auteur": " ESNAULT FRANCIS",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 850
+    },
+    {
+     "N_item": 166,
+     "Matiere": "Génie mécanique",
+     "Titre": "AUTOMATIQUE DES SYSTEMES MECANIQUES - COURS, TRAVAUX PRATIQUES ET EXERCICES CORRIGES",
+     "Auteur": " LE GALLO |  LE GALLO OLIVIER",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 898
+    },
+    {
+     "N_item": 167,
+     "Matiere": "Electronique",
+     "Titre": "LA MODELISATION AUTOMATIQUE POUR L'ELECTRONIQUE DE PUISSANCE",
+     "Auteur": " XXX",
+     "Qte": 1,
+     "Editeur": " EDITIONS UNIVERSITAIRES EUROPEENES",
+     "N_INV": 960
+    },
+    {
+     "N_item": 168,
+     "Matiere": "Informatique",
+     "Titre": "MONGODB - COMPRENDRE ET OPTIMISER L'EXPLOITATION DE VOS DONNEES (AVEC EXERCICES ET CORRIGES)",
+     "Auteur": " FERRANDEZ SEBASTIEN",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 804
+    },
+    {
+     "N_item": 169,
+     "Matiere": "Informatique",
+     "Titre": "HADOOP - DEVENEZ OPERATIONNEL DANS LE MONDE DU BIG DATA",
+     "Auteur": " JUVENAL CHOKOGOUE",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 805
+    },
+    {
+     "N_item": 170,
+     "Matiere": "Informatique",
+     "Titre": "ORACLE 12C - ADMINISTRATION",
+     "Auteur": " OLIVIER HEURTEL",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 806
+    },
+    {
+     "N_item": 171,
+     "Matiere": "Informatique",
+     "Titre": "ORACLE 12C - SQL, PL\/SQL, SQL*PLUS",
+     "Auteur": " JEROME GABILLAUD |  OLIVIER HEURTEL",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 807
+    },
+    {
+     "N_item": 172,
+     "Matiere": "Informatique",
+     "Titre": "ORACLE 12C - PROGRAMMEZ AVEC SQL ET PL\/SQL : EXERCICES ET CORRIGES",
+     "Auteur": " ANNE-SOPHIE LACROIX",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 808
+    },
+    {
+     "N_item": 173,
+     "Matiere": "Informatique",
+     "Titre": "UML 2.5 - INITIATION, EXEMPLES ET EXERCICES CORRIGES (5E EDITION)",
+     "Auteur": "DEBRAUWER LAURENT",
+     "Qte": 1,
+     "Editeur": "ENI",
+     "N_INV": 991
+    },
+    {
+     "N_item": 174,
+     "Matiere": "Informatique",
+     "Titre": "L'INTELLIGENCE ARTIFICIELLE POUR LES DEVELOPPEURS - CONCEPTS ET IMPLEMENTATIONS EN JAVA (2E EDITION)",
+     "Auteur": " VIRGINIE MATHIVET",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 809
+    },
+    {
+     "N_item": 175,
+     "Matiere": "Informatique",
+     "Titre": "INTELLIGENCE ARTIFICIELLE AVEC AWS - EXPLOITEZ LES SERVICES COGNITIFS D'AMAZON",
+     "Auteur": " MARC ISRAEL",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 810
+    },
+    {
+     "N_item": 176,
+     "Matiere": "Informatique",
+     "Titre": "TENSORFLOW ET KERAS - L'INTELLIGENCE ARTIFICIELLE APPLIQUEE A LA ROBOTIQUE HUMANOIDE",
+     "Auteur": " LAUDE",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 811
+    },
+    {
+     "N_item": 177,
+     "Matiere": "Electronique",
+     "Titre": "CAMPUS LES ANTENNES - THEORIE, CONCEPTION ET APPLICATIONS",
+     "Auteur": " PICON+COLLECTIF",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 899
+    },
+    {
+     "N_item": 178,
+     "Matiere": "Energetique",
+     "Titre": "ANTENNA THEORY 4TH ED",
+     "Auteur": " Balanis CA",
+     "Qte": 1,
+     "Editeur": " WILEY",
+     "N_INV": 936
+    },
+    {
+     "N_item": 179,
+     "Matiere": "Informatique",
+     "Titre": "DATA MINING 2E EDITION",
+     "Auteur": " LAROSE DANIEL T.",
+     "Qte": 1,
+     "Editeur": " VUIBERT",
+     "N_INV": 933
+    },
+    {
+     "N_item": 180,
+     "Matiere": "Informatique",
+     "Titre": "LE MACHINE LEARNING AVEC PYTHON",
+     "Auteur": " SARAH |  GUIDO\/C. MULLER |  ",
+     "Qte": 1,
+     "Editeur": " FIRST INTERACT",
+     "N_INV": 900
+    },
+    {
+     "N_item": 181,
+     "Matiere": "Informatique",
+     "Titre": "DATA SCIENCE : FONDAMENTAUX ET ETUDES DE CAS - MACHINE LEARNING AVEC PYTHON ET R",
+     "Auteur": " BIERNAT ERIC |  BIERNAT\/LUTZ",
+     "Qte": 1,
+     "Editeur": " EYROLLES",
+     "N_INV": 954
+    },
+    {
+     "N_item": 182,
+     "Matiere": "Informatique",
+     "Titre": "LA VIE 3.0 - ETRE HUMAIN A L'ERE DE L'INTELLIGENCE ARTIFICIELLE",
+     "Auteur": " TEGMARK MAX |  XXX",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    },
+    {
+     "N_item": 183,
+     "Matiere": "Informatique",
+     "Titre": "CAMPUS BIG DATA ET MACHINE LEARNING - 3E ED. - LES CONCEPTS ET LES OUTILS DE LA DATA SCIENCE",
+     "Auteur": " LEMBERGER\/BATTY",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 901
+    },
+    {
+     "N_item": 184,
+     "Matiere": "Informatique",
+     "Titre": "INTELLIGENCE ARTIFICIELLE 3E EDITION",
+     "Auteur": "NORVIG |  RUSSELL STUART",
+     "Qte": 1,
+     "Editeur": " PEARSON",
+     "N_INV": 851
+    },
+    {
+     "N_item": 185,
+     "Matiere": "Informatique",
+     "Titre": "COMPRENDRE LE DEEP LEARNING: UNE INTRODUCTION AUX RÉSEAUX DE NEURONES",
+     "Auteur": " JEAN\/CLAUDE HEUDIN",
+     "Qte": 1,
+     "Editeur": " Science eBook",
+     "N_INV": 958
+    },
+    {
+     "N_item": 186,
+     "Matiere": "Informatique",
+     "Titre": "UML 2 - DE L APPRENTISSAGE A LA PRATIQUE - 2E EDITION",
+     "Auteur": " AUDIBERT LAURENT",
+     "Qte": 1,
+     "Editeur": " ELLIPSES MARKET |  ELLIPSES",
+     "N_INV": 985
+    },
+    {
+     "N_item": 187,
+     "Matiere": "Informatique",
+     "Titre": "EXERCICES ET PROBLEMES DE CRYPTOGRAPHIE - 3E ED",
+     "Auteur": " VERGNAUD DAMIEN |  XXX",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 812
+    },
+    {
+     "N_item": 188,
+     "Matiere": "Informatique",
+     "Titre": "INITIATION A LA CRYPTOGRAPHIE",
+     "Auteur": " GILLES |  DUBERTTRET GILLES",
+     "Qte": 1,
+     "Editeur": " VUIBERT",
+     "N_INV": 934
+    },
+    {
+     "N_item": 189,
+     "Matiere": "Informatique",
+     "Titre": "&nbsp;Think Python, 2e",
+     "Auteur": " Downey AB",
+     "Qte": 1,
+     "Editeur": " O'REILLY MEDIA",
+     "N_INV": 937
+    },
+    {
+     "N_item": 190,
+     "Matiere": "Informatique",
+     "Titre": "UNDERSTANDING MACHINE LEARNING",
+     "Auteur": " Shai Shalev-Shwartz e",
+     "Qte": 1,
+     "Editeur": " CAMBRIDGE UNIVERSITY PRESS",
+     "N_INV": 938
+    },
+    {
+     "N_item": 191,
+     "Matiere": "Informatique",
+     "Titre": "PYTHON POUR LE DATA SCIENTIST - DES BASES DU LANGAGE AU MACHINE LEARNING",
+     "Auteur": " JAKOBOWICZ EMMANUEL",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 902
+    },
+    {
+     "N_item": 192,
+     "Matiere": "Informatique",
+     "Titre": "MAITRISEZ L'UTILISATION DES TECHNOLOGIES HADOOP - INITIATION A L'ECOSYSTEME HADOOP",
+     "Auteur": " CHOKOGOUE JUVENAL",
+     "Qte": 1,
+     "Editeur": " EYROLLES",
+     "N_INV": 955
+    },
+    {
+     "N_item": 193,
+     "Matiere": "Informatique",
+     "Titre": "INTELLIGENCE ARTIFICIELLE VULGARISEE - LE MACHINE LEARNING ET LE DEEP LEARNING PAR LA PRATIQUE",
+     "Auteur": " AURELIEN VANNIEUWENH",
+     "Qte": 1,
+     "Editeur": " ENI",
+     "N_INV": 813
+    },
+    {
+     "N_item": 194,
+     "Matiere": "Informatique",
+     "Titre": "CLOUD ET TRANSFORMATION DIGITALE - 5E ED - SI HYBRIDE, PROTECTION DES DONNEES, ANATOMIE DES GRANDES",
+     "Auteur": " PLOUIN GUILLAUME",
+     "Qte": 1,
+     "Editeur": " DUNOD",
+     "N_INV": 853
+    },
+    {
+     "N_item": 195,
+     "Matiere": "Physique",
+     "Titre": "EXPERIENCES DE PHYSIQUE - OPTIQUE, MECANIQUE, FLUIDES, ACOUSTIQUE - 5E ED. - CAPES\/AGREGA - CAPES\/AG",
+     "Auteur": " BELLIER\/BOULOY",
+     "Qte": 1,
+     "Editeur": " DUNOD"
+    }
+   ]

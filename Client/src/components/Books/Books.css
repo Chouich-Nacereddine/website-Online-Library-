@@ -1,0 +1,90 @@
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 16vw;
+    height: 50vh;
+    background-color: aqua;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+    margin-bottom: 3em;
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background: url(../../assets/Book3.jpg) no-repeat;
+    background-position: 0%;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-75deg);
+    -ms-transform: rotatey(-75deg);
+    transform: rotatey(-75deg);
+  }
+  
+  .book p {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .cover p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .books_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .book_info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.5em;
+    padding-right: 2em;
+    text-align: justify;
+  }
+
+  .book_info b {
+    color:blue;
+  }

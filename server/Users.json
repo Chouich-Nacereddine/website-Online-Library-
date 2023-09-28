@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "username": "AGOUMI MOHAMED",
+    "email": "mohamed.agoumi@usmba.ac.ma",
+    "password": "8p#h3nPIF99!",
+    "isAdmin": "False"
+  },
+  {
+    "id": 2,
+    "username": "AITELKADI ASSIA",
+    "email": "assia.aitelkadi@usmba.ac.ma",
+    "password": "HJhR77Iu^9lT",
+    "isAdmin": "False"
+  },
+  {
+    "id": 3,
+    "username": "AKKOUJANE WALID",
+    "email": "walid.akkoujane@usmba.ac.ma",
+    "password": "yZ3V50*VQk4s",
+    "isAdmin": "False"
+  },
+  {
+    "id": 4,
+    "username": "ALAOUI ISMAILI SALMA",
+    "email": "salma.alaouiismaili1@usmba.ac.ma",
+    "password": "7nE#4uj&amp;5Y0Y",
+    "isAdmin": "False"
+  },
+  {
+    "id": 5,
+    "username": "AMAKRANE ASMAE",
+    "email": "asmae.amakrane@usmba.ac.ma",
+    "password": "46R%h5$pUsyQ",
+    "isAdmin": "False"
+  },
+  {
+    "id": 6,
+    "username": "AMMAR NAIMA",
+    "email": "naima.ammar@usmba.ac.ma",
+    "password": "245RP49Ozfd!",
+    "isAdmin": "False"
+  },
+  {
+    "id": 7,
+    "username": "AQIL SALMA",
+    "email": "salma.aqil@usmba.ac.ma",
+    "password": "INVk7i$^4wm1",
+    "isAdmin": "False"
+  },
+  {
+    "id": 8,
+    "username": "ARIOUA IMANE",
+    "email": "imane.arioua@usmba.ac.ma",
+    "password": "A#7M5ZVU6Qgi",
+    "isAdmin": "False"
+  },
+  {
+    "id": 9,
+    "username": "BEN ALI AYOUB",
+    "email": "ayoub.benali@usmba.ac.ma",
+    "password": "Zz71F%dWetc5",
+    "isAdmin": "False"
+  },
+  {
+    "id": 10,
+    "username": "BERAIDA MERYEM",
+    "email": "meryem.beraida@usmba.ac.ma",
+    "password": "Tj$1^q89caeG",
+    "isAdmin": "False"
+  },
+  {
+    "id": 11,
+    "username": "BOUARDI HOUSSAM",
+    "email": "houssam.bouardi@usmba.ac.ma",
+    "password": "6Gw3JhF76Q!k",
+    "isAdmin": "False"
+  },
+  {
+    "id": 12,
+    "username": "BOUCHIBA AL YAZID",
+    "email": "alyazid.bouchiba@usmba.ac.ma",
+    "password": "7jAqos&amp;E25E#",
+    "isAdmin": "False"
+  },
+  {
+    "id": 13,
+    "username": "BOURHANE YOUNES SAID ALI ",
+    "email": "younessaidali.bourhane@usmba.ac.ma",
+    "password": "18cCIBgd3j*$",
+    "isAdmin": "False"
+  },
+  {
+    "id": 14,
+    "username": "CHKOUBI KAWTAR",
+    "email": "kawtar.chkoubi@usmba.ac.ma",
+    "password": "6i2R!631YxH&amp;",
+    "isAdmin": "False"
+  },
+  {
+    "id": 15,
+    "username": "CHOUICH  NACEREDDINE",
+    "email": "nacreddine.chouich@usmba.ac.ma",
+    "password": "g3*f9QtFW3Z8",
+    "isAdmin": "False"
+  },
+  {
+    "id": 16,
+    "username": "EL FOGHALI FATIMA ZAHRAE",
+    "email": "fatimazahrae.elfoghali@usmba.ac.ma",
+    "password": "7#7w3&amp;cEVa4^",
+    "isAdmin": "False"
+  },
+  {
+    "id": 17,
+    "username": "FATHI ISMAIL",
+    "email": "ismail.fathi1@usmba.ac.ma",
+    "password": "4T%*jv3Rm2Yz",
+    "isAdmin": "False"
+  },
+  {
+    "id": 18,
+    "username": "GUENDOUZ  HIND",
+    "email": "hind.guendouz@usmba.ac.ma",
+    "password": "t9A^0w9tu8*x",
+    "isAdmin": "False"
+  },
+  {
+    "id": 19,
+    "username": "KAUNDA KELVIS",
+    "email": "kelvis.kaunda@usmba.ac.ma",
+    "password": "79ojul9#O3eI",
+    "isAdmin": "False"
+  },
+  {
+    "id": 20,
+    "username": "LAHLOU SARA",
+    "email": "sara.lahlou3@usmba.ac.ma",
+    "password": "M2a^BZE3!5L4",
+    "isAdmin": "False"
+  },
+  {
+    "id": 21,
+    "username": "LAKSIR ABDELILAH",
+    "email": "abdelilah.laksir@usmba.ac.ma",
+    "password": "9dHeP18!865U",
+    "isAdmin": "False"
+  },
+  {
+    "id": 22,
+    "username": "LYOUSFI OUMAIMA",
+    "email": "oumaima.lyousfi@usmba.ac.ma",
+    "password": "C4D%d6asep7r",
+    "isAdmin": "False"
+  },
+  {
+    "id": 23,
+    "username": "MACHLAF TARIK",
+    "email": "tarik.machlaf@usmba.ac.ma",
+    "password": "bTIS1^8t%9X6",
+    "isAdmin": "False"
+  },
+  {
+    "id": 24,
+    "username": "MAJID MOHAMMED ",
+    "email": "mohammed.majid@usmba.ac.ma",
+    "password": "7Ol1u*Vn^8s$",
+    "isAdmin": "False"
+  },
+  {
+    "id": 25,
+    "username": "MAKROUM OMAR",
+    "email": "omar.makroum@usmba.ac.ma",
+    "password": "94$0rBF4rNii",
+    "isAdmin": "False"
+  },
+  {
+    "id": 26,
+    "username": "MBA ALLOGO VIANNEY",
+    "email": "vianney.mbaallogo@usmba.ac.ma",
+    "password": "DJEwx!6t58Wq",
+    "isAdmin": "False"
+  },
+  {
+    "id": 27,
+    "username": "MOUJTAHID RIM",
+    "email": "rim.moujtahid@usmba.ac.ma",
+    "password": "D^4J83NTPQWc",
+    "isAdmin": "False"
+  },
+  {
+    "id": 28,
+    "username": "NDOMALE TINA JUNIOR",
+    "email": "junior.ndomaletina@usmba.ac.ma",
+    "password": "Tuh66uIb62K!",
+    "isAdmin": "False"
+  },
+  {
+    "id": 29,
+    "username": "OU-MAHRIR IBTISSAME",
+    "email": "ibtissame.oumahrir@usmba.ac.ma",
+    "password": "rqz3e9Z&amp;h0lj",
+    "isAdmin": "False"
+  },
+  {
+    "id": 30,
+    "username": "OUAZZANI TAYBI  DEYAE",
+    "email": "deyae.ouazzanitaybi@usmba.ac.ma",
+    "password": "*X^7zqL48AhB",
+    "isAdmin": "False"
+  },
+  {
+    "id": 31,
+    "username": "RAMI AIDA",
+    "email": "aida.rami@usmba.ac.ma",
+    "password": "HFsr4&amp;8mY&amp;C1",
+    "isAdmin": "False"
+  },
+  {
+    "id": 32,
+    "username": "SALBI NADA",
+    "email": "nada.salbi@usmba.ac.ma",
+    "password": "g06a5YgRw**0",
+    "isAdmin": "False"
+  },
+  {
+    "id": 33,
+    "username": "SBAI HANAE",
+    "email": "hanae.sbai@usmba.ac.ma",
+    "password": "tjaM090d27!^",
+    "isAdmin": "False"
+  },
+  {
+    "id": 34,
+    "username": "TALHAOUI HANANE",
+    "email": "hanane.talhaoui@usmba.ac.ma",
+    "password": "38!bEwkJyS6F",
+    "isAdmin": "False"
+  },
+  {
+    "id": 35,
+    "username": "TOUTI HAJAR",
+    "email": "hajar.touti@usmba.ac.ma",
+    "password": "w0&amp;ChZK79&amp;R^",
+    "isAdmin": "False"
+  },
+  {
+    "id": 36,
+    "username": "ZULU ONGANISO",
+    "email": "onganiso.zulu@usmba.ac.ma",
+    "password": "3488yO7Pcg!9",
+    "isAdmin": "False"
+  }
+]

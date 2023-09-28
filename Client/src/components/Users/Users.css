@@ -1,0 +1,25 @@
+.edit {
+  color: blue;
+  transition: 0.2s;
+}
+
+.delete {
+  color: red;
+  transition: 0.2s;
+}
+
+.animation:hover,
+.animation:focus {
+  transform: scale(2) rotate(0deg);
+}
+form {
+  display: flex;
+  justify-self: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form input {
+  background-color: blue;
+
+}

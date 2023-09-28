@@ -1,0 +1,10 @@
+.login-font{
+    max-height:115vh;
+    width:100%;
+}
+.login{
+    position:absolute;
+    top:30%;
+    left:35%;
+    width:30%;
+}

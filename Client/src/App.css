@@ -1,0 +1,8 @@
+.main{
+    display: flex;
+    flex-direction:column;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
